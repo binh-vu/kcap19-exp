@@ -1,0 +1,10 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "consumption": "totalbiofuelsconsumption20002010thousandbarrelsperday.csv",
+      "production": "totalbiofuelsproduction20002010thousandbarrelsperday.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

@@ -1,0 +1,62 @@
+version: "2"
+resources:
+  xml_data:
+    type: xml
+  json_metadata:
+    type: json
+preprocessing:
+  - type: pmap
+    resource_id: xml_data
+    path: $.response.row.row[:]
+    code: |
+      # remove irrelevant keys
+      value.pop('@_id')
+      value.pop('@_uuid')
+      value.pop('@_position')
+      value.pop('@_address')
+      return { "csa2010": value.pop('csa2010'), "props": value }
+attributes:
+  csa2010:
+    resource_id: xml_data
+    path: $.response.row.row[:].csa2010
+  props:
+    resource_id: xml_data
+    # selecting all properties of the object using JSONPath operator *~
+    path: $.response.row.row[:].props.*~
+  values:
+    resource_id: xml_data
+    path: $.response.row.row[:].props.*
+  col_name:
+    resource_id: json_metadata
+    path: $.meta.view.columns[9:].name
+  col_desc:
+    resource_id: json_metadata
+    path: $.meta.view.columns[9:].description
+alignments:
+  - type: dimension
+    source: props
+    target: values
+    aligned_dims:
+      - { source: 3, target: 3 }
+      - { source: 5, target: 5 }
+  - type: dimension
+    value: props:3 <-> csa2010:3
+  - type: dimension
+    value: col_name:3 <-> col_desc:3
+  - type: value
+    source: col_name
+    target: props
+semantic_model:
+  eg:Record:1:
+    properties:
+      # - [eg:indicator, props]
+      - [eg:value, values, xsd:decimal]
+      - [eg:location, csa2010]
+    links:
+      - [eg:indicator, eg:Indicator:1]
+  eg:Indicator:1:
+    properties:
+      - [drepr:uri, col_name]
+      - [rdfs:label, col_desc]
+  prefixes:
+    eg: http://example.org/

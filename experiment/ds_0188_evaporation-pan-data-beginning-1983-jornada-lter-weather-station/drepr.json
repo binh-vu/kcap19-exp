@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "JornadaStudy_127_evaporation_pan_data.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

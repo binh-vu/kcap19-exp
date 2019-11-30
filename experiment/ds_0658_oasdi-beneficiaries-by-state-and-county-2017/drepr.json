@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "oasdi_sc17.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

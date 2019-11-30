@@ -1,0 +1,24 @@
+version: "1"
+resources: json
+attributes:
+  col_name: $.meta.view.columns[9:].name
+  col_desc: $.meta.view.columns[9:].description
+  csa2010: $.data[:][8]
+  values: $.data[:][9:]
+alignments:
+  - type: dimension
+    value: col_name:3 <-> col_desc:3
+  - type: dimension
+    value: csa2010:1 <-> values:1
+  - type: dimension
+    value: values:2 <-> col_name:3
+semantic_model:
+  data_nodes:
+    csa2010: eg:Record:1--eg:location
+    values: eg:Record:1--eg:value^^xsd:decimal
+    col_name: eg:Indicator:1--drepr:uri
+    col_desc: eg:Indicator:1--rdfs:label
+  relations:
+    - eg:Record:1--eg:indicator--eg:Indicator:1
+  prefixes:
+    eg: http://example.org/

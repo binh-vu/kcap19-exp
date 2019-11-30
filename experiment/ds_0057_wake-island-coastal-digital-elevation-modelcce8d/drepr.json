@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "wake_island_13_mhw_2009.nc"
+    },
+    "output": "outputs/model.output.ttl.gz"
+  }
+]

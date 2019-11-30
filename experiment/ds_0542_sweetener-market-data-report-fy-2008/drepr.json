@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "september_08_smd_tables.xls"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

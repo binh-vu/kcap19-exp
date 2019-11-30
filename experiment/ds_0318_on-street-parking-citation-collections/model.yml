@@ -1,0 +1,33 @@
+version: "2"
+resources: spreadsheet
+preprocessing:
+  - type: pmap
+    path: $[0][1:49][G]
+    code: |
+      from datetime import datetime, timedelta
+      from dateutil import relativedelta
+      d = timedelta(days=value - 1)
+      d = datetime(year=1900, month=1, day=1) + d
+      d -= relativedelta.relativedelta(months=1)
+      return d.strftime("%Y-%m-%d")
+attributes:
+  month: $[0][1:49][G]
+  n_paid_citations:
+    path: $[0][1:49][H]
+    missing_values: [""]
+  n_citations:
+    path: $[0][1:49][I]
+    missing_values: [""]
+alignments:
+  - type: dimension
+    value: month:1 <-> n_paid_citations:1
+  - type: dimension
+    value: month:1 <-> n_citations:1
+semantic_model:
+  eg:Record:1:
+    properties:
+      - [eg:month, month]
+      - [eg:n_citations, n_citations, true]
+      - [eg:n_paid_citations, n_paid_citations, true]
+  prefixes:
+    eg: https://example.org

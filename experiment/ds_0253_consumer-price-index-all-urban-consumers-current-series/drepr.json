@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "cpi-u-201803.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

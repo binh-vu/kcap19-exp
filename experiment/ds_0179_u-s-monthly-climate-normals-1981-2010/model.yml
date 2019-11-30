@@ -1,0 +1,45 @@
+version: '1'
+resources: csv
+attributes:
+  STATION: $[1:].0
+  STATION_NAME: $[1:].1
+  ELEVATION: $[1:].2
+  LATITUDE: $[1:].3
+  LONGITUDE: $[1:].4
+  DATE: $[1:].5
+  MLY-TMIN-NORMAL: $[1:].6
+  MLY-TMAX-NORMAL: $[1:].7
+  MLY-PRCP-NORMAL: $[1:].8
+alignments:
+  - type: dimension
+    value: STATION:0 <-> STATION_NAME:0
+  - type: dimension
+    value: STATION:0 <-> ELEVATION:0
+  - type: dimension
+    value: STATION:0 <-> LATITUDE:0
+  - type: dimension
+    value: STATION:0 <-> LONGITUDE:0
+  - type: dimension
+    value: STATION:0 <-> DATE:0
+  - type: dimension
+    value: STATION:0 <-> MLY-TMIN-NORMAL:0
+  - type: dimension
+    value: STATION:0 <-> MLY-TMAX-NORMAL:0
+  - type: dimension
+    value: STATION:0 <-> MLY-PRCP-NORMAL:0
+semantic_model:
+  data_nodes:
+    STATION: qb:Observation:1--eg:station
+    STATION_NAME: qb:Observation:1--eg:station_name
+    ELEVATION: qb:Observation:1--eg:elevation
+    LATITUDE: qb:Observation:1--eg:latitude
+    LONGITUDE: qb:Observation:1--eg:longitude
+    DATE: qb:Observation:1--eg:date
+    MLY-TMIN-NORMAL: qb:Observation:1--eg:tmin_norm
+    MLY-TMAX-NORMAL: qb:Observation:1--eg:tmax_norm
+    MLY-PRCP-NORMAL: qb:Observation:1--eg:prcp_norm
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

@@ -1,0 +1,913 @@
+,eg:category,eg:indicator,eg:location,eg:sub_category,eg:value
+0,Energy - End Use Intensities,Heating (elec),Miami,Electricity (MJ/m2),0.0
+1,Energy - End Use Intensities,Heating (elec),Houston,Electricity (MJ/m2),1.699226876686457
+2,Energy - End Use Intensities,Heating (elec),Phoenix,Electricity (MJ/m2),0.21178047583335602
+3,Energy - End Use Intensities,Heating (elec),Atlanta,Electricity (MJ/m2),2.267296858921813
+4,Energy - End Use Intensities,Heating (elec),Los Angeles,Electricity (MJ/m2),0.0
+5,Energy - End Use Intensities,Heating (elec),Las Vegas,Electricity (MJ/m2),0.151983635598055
+6,Energy - End Use Intensities,Heating (elec),San Francisco,Electricity (MJ/m2),0.059796840235300006
+7,Energy - End Use Intensities,Heating (elec),Baltimore,Electricity (MJ/m2),5.877531088128086
+8,Energy - End Use Intensities,Heating (elec),Albuquerque,Electricity (MJ/m2),1.365361185372696
+9,Energy - End Use Intensities,Heating (elec),Seattle,Electricity (MJ/m2),1.345428905294262
+10,Energy - End Use Intensities,Heating (elec),Chicago,Electricity (MJ/m2),13.703442553923045
+11,Energy - End Use Intensities,Heating (elec),Boulder,Electricity (MJ/m2),7.013671052598795
+12,Energy - End Use Intensities,Heating (elec),Minneapolis,Electricity (MJ/m2),29.875996302562044
+13,Energy - End Use Intensities,Heating (elec),Helena,Electricity (MJ/m2),18.883343839305958
+14,Energy - End Use Intensities,Heating (elec),Duluth,Electricity (MJ/m2),40.15606975301413
+15,Energy - End Use Intensities,Heating (elec),Fairbanks,Electricity (MJ/m2),94.42668533656901
+16,Energy - End Use Intensities,Cooling (elec),Miami,Electricity (MJ/m2),203.5434610909435
+17,Energy - End Use Intensities,Cooling (elec),Houston,Electricity (MJ/m2),154.99091835488926
+18,Energy - End Use Intensities,Cooling (elec),Phoenix,Electricity (MJ/m2),159.94408995438
+19,Energy - End Use Intensities,Cooling (elec),Atlanta,Electricity (MJ/m2),109.71723569173732
+20,Energy - End Use Intensities,Cooling (elec),Los Angeles,Electricity (MJ/m2),85.13076821498957
+21,Energy - End Use Intensities,Cooling (elec),Las Vegas,Electricity (MJ/m2),119.21496714911089
+22,Energy - End Use Intensities,Cooling (elec),San Francisco,Electricity (MJ/m2),58.8674976766436
+23,Energy - End Use Intensities,Cooling (elec),Baltimore,Electricity (MJ/m2),88.01596575634282
+24,Energy - End Use Intensities,Cooling (elec),Albuquerque,Electricity (MJ/m2),80.54136072693025
+25,Energy - End Use Intensities,Cooling (elec),Seattle,Electricity (MJ/m2),46.18807601175008
+26,Energy - End Use Intensities,Cooling (elec),Chicago,Electricity (MJ/m2),71.85088661273323
+27,Energy - End Use Intensities,Cooling (elec),Boulder,Electricity (MJ/m2),61.51599939206545
+28,Energy - End Use Intensities,Cooling (elec),Minneapolis,Electricity (MJ/m2),66.30223814589931
+29,Energy - End Use Intensities,Cooling (elec),Helena,Electricity (MJ/m2),45.769498130102974
+30,Energy - End Use Intensities,Cooling (elec),Duluth,Electricity (MJ/m2),44.68318886582835
+31,Energy - End Use Intensities,Cooling (elec),Fairbanks,Electricity (MJ/m2),30.70567746082684
+32,Energy - End Use Intensities,Interior Lighting (elec),Miami,Electricity (MJ/m2),156.55311080603647
+33,Energy - End Use Intensities,Interior Lighting (elec),Houston,Electricity (MJ/m2),156.55311080603647
+34,Energy - End Use Intensities,Interior Lighting (elec),Phoenix,Electricity (MJ/m2),156.55311080603647
+35,Energy - End Use Intensities,Interior Lighting (elec),Atlanta,Electricity (MJ/m2),156.55311080603647
+36,Energy - End Use Intensities,Interior Lighting (elec),Los Angeles,Electricity (MJ/m2),156.55311080603647
+37,Energy - End Use Intensities,Interior Lighting (elec),Las Vegas,Electricity (MJ/m2),156.55311080603647
+38,Energy - End Use Intensities,Interior Lighting (elec),San Francisco,Electricity (MJ/m2),156.55311080603647
+39,Energy - End Use Intensities,Interior Lighting (elec),Baltimore,Electricity (MJ/m2),156.55311080603647
+40,Energy - End Use Intensities,Interior Lighting (elec),Albuquerque,Electricity (MJ/m2),156.55311080603647
+41,Energy - End Use Intensities,Interior Lighting (elec),Seattle,Electricity (MJ/m2),156.55311080603647
+42,Energy - End Use Intensities,Interior Lighting (elec),Chicago,Electricity (MJ/m2),156.55311080603647
+43,Energy - End Use Intensities,Interior Lighting (elec),Boulder,Electricity (MJ/m2),156.55311080603647
+44,Energy - End Use Intensities,Interior Lighting (elec),Minneapolis,Electricity (MJ/m2),156.55311080603647
+45,Energy - End Use Intensities,Interior Lighting (elec),Helena,Electricity (MJ/m2),156.55311080603647
+46,Energy - End Use Intensities,Interior Lighting (elec),Duluth,Electricity (MJ/m2),156.55311080603647
+47,Energy - End Use Intensities,Interior Lighting (elec),Fairbanks,Electricity (MJ/m2),156.55311080603647
+48,Energy - End Use Intensities,Exterior Lighting (elec),Miami,Electricity (MJ/m2),29.554588286297303
+49,Energy - End Use Intensities,Exterior Lighting (elec),Houston,Electricity (MJ/m2),29.502266051091414
+50,Energy - End Use Intensities,Exterior Lighting (elec),Phoenix,Electricity (MJ/m2),29.494791446062003
+51,Energy - End Use Intensities,Exterior Lighting (elec),Atlanta,Electricity (MJ/m2),29.54462214625809
+52,Energy - End Use Intensities,Exterior Lighting (elec),Los Angeles,Electricity (MJ/m2),29.53963907623848
+53,Energy - End Use Intensities,Exterior Lighting (elec),Las Vegas,Electricity (MJ/m2),29.50974065612083
+54,Energy - End Use Intensities,Exterior Lighting (elec),San Francisco,Electricity (MJ/m2),29.477350700993373
+55,Energy - End Use Intensities,Exterior Lighting (elec),Baltimore,Electricity (MJ/m2),29.507249121111023
+56,Energy - End Use Intensities,Exterior Lighting (elec),Albuquerque,Electricity (MJ/m2),29.502266051091414
+57,Energy - End Use Intensities,Exterior Lighting (elec),Seattle,Electricity (MJ/m2),29.459909955924743
+58,Energy - End Use Intensities,Exterior Lighting (elec),Chicago,Electricity (MJ/m2),29.46738456095416
+59,Energy - End Use Intensities,Exterior Lighting (elec),Boulder,Electricity (MJ/m2),29.472367630973764
+60,Energy - End Use Intensities,Exterior Lighting (elec),Minneapolis,Electricity (MJ/m2),29.4922999110522
+61,Energy - End Use Intensities,Exterior Lighting (elec),Helena,Electricity (MJ/m2),29.454926885905135
+62,Energy - End Use Intensities,Exterior Lighting (elec),Duluth,Electricity (MJ/m2),29.447452280875723
+63,Energy - End Use Intensities,Exterior Lighting (elec),Fairbanks,Electricity (MJ/m2),29.270553295179628
+64,Energy - End Use Intensities,Interior Equipment (elec),Miami,Electricity (MJ/m2),202.36745656631592
+65,Energy - End Use Intensities,Interior Equipment (elec),Houston,Electricity (MJ/m2),202.36745656631592
+66,Energy - End Use Intensities,Interior Equipment (elec),Phoenix,Electricity (MJ/m2),202.36745656631592
+67,Energy - End Use Intensities,Interior Equipment (elec),Atlanta,Electricity (MJ/m2),202.36745656631592
+68,Energy - End Use Intensities,Interior Equipment (elec),Los Angeles,Electricity (MJ/m2),202.36745656631592
+69,Energy - End Use Intensities,Interior Equipment (elec),Las Vegas,Electricity (MJ/m2),202.36745656631592
+70,Energy - End Use Intensities,Interior Equipment (elec),San Francisco,Electricity (MJ/m2),202.36745656631592
+71,Energy - End Use Intensities,Interior Equipment (elec),Baltimore,Electricity (MJ/m2),202.36745656631592
+72,Energy - End Use Intensities,Interior Equipment (elec),Albuquerque,Electricity (MJ/m2),202.36745656631592
+73,Energy - End Use Intensities,Interior Equipment (elec),Seattle,Electricity (MJ/m2),202.36745656631592
+74,Energy - End Use Intensities,Interior Equipment (elec),Chicago,Electricity (MJ/m2),202.36745656631592
+75,Energy - End Use Intensities,Interior Equipment (elec),Boulder,Electricity (MJ/m2),202.36745656631592
+76,Energy - End Use Intensities,Interior Equipment (elec),Minneapolis,Electricity (MJ/m2),202.36745656631592
+77,Energy - End Use Intensities,Interior Equipment (elec),Helena,Electricity (MJ/m2),202.36745656631592
+78,Energy - End Use Intensities,Interior Equipment (elec),Duluth,Electricity (MJ/m2),202.36745656631592
+79,Energy - End Use Intensities,Interior Equipment (elec),Fairbanks,Electricity (MJ/m2),202.36745656631592
+80,Energy - End Use Intensities,Exterior Equipment (elec),Miami,Electricity (MJ/m2),0.0
+81,Energy - End Use Intensities,Exterior Equipment (elec),Houston,Electricity (MJ/m2),0.0
+82,Energy - End Use Intensities,Exterior Equipment (elec),Phoenix,Electricity (MJ/m2),0.0
+83,Energy - End Use Intensities,Exterior Equipment (elec),Atlanta,Electricity (MJ/m2),0.0
+84,Energy - End Use Intensities,Exterior Equipment (elec),Los Angeles,Electricity (MJ/m2),0.0
+85,Energy - End Use Intensities,Exterior Equipment (elec),Las Vegas,Electricity (MJ/m2),0.0
+86,Energy - End Use Intensities,Exterior Equipment (elec),San Francisco,Electricity (MJ/m2),0.0
+87,Energy - End Use Intensities,Exterior Equipment (elec),Baltimore,Electricity (MJ/m2),0.0
+88,Energy - End Use Intensities,Exterior Equipment (elec),Albuquerque,Electricity (MJ/m2),0.0
+89,Energy - End Use Intensities,Exterior Equipment (elec),Seattle,Electricity (MJ/m2),0.0
+90,Energy - End Use Intensities,Exterior Equipment (elec),Chicago,Electricity (MJ/m2),0.0
+91,Energy - End Use Intensities,Exterior Equipment (elec),Boulder,Electricity (MJ/m2),0.0
+92,Energy - End Use Intensities,Exterior Equipment (elec),Minneapolis,Electricity (MJ/m2),0.0
+93,Energy - End Use Intensities,Exterior Equipment (elec),Helena,Electricity (MJ/m2),0.0
+94,Energy - End Use Intensities,Exterior Equipment (elec),Duluth,Electricity (MJ/m2),0.0
+95,Energy - End Use Intensities,Exterior Equipment (elec),Fairbanks,Electricity (MJ/m2),0.0
+96,Energy - End Use Intensities,Fans (elec),Miami,Electricity (MJ/m2),59.903976240722145
+97,Energy - End Use Intensities,Fans (elec),Houston,Electricity (MJ/m2),57.066117864555174
+98,Energy - End Use Intensities,Fans (elec),Phoenix,Electricity (MJ/m2),59.73206032504566
+99,Energy - End Use Intensities,Fans (elec),Atlanta,Electricity (MJ/m2),54.37276851895684
+100,Energy - End Use Intensities,Fans (elec),Los Angeles,Electricity (MJ/m2),51.08145077100551
+101,Energy - End Use Intensities,Fans (elec),Las Vegas,Electricity (MJ/m2),56.1342837708884
+102,Energy - End Use Intensities,Fans (elec),San Francisco,Electricity (MJ/m2),48.440423660613064
+103,Energy - End Use Intensities,Fans (elec),Baltimore,Electricity (MJ/m2),50.675330564407425
+104,Energy - End Use Intensities,Fans (elec),Albuquerque,Electricity (MJ/m2),57.051168654496344
+105,Energy - End Use Intensities,Fans (elec),Seattle,Electricity (MJ/m2),46.9754010748482
+106,Energy - End Use Intensities,Fans (elec),Chicago,Electricity (MJ/m2),49.98268383168186
+107,Energy - End Use Intensities,Fans (elec),Boulder,Electricity (MJ/m2),54.95827924626083
+108,Energy - End Use Intensities,Fans (elec),Minneapolis,Electricity (MJ/m2),50.28665110287797
+109,Energy - End Use Intensities,Fans (elec),Helena,Electricity (MJ/m2),51.6719445683291
+110,Energy - End Use Intensities,Fans (elec),Duluth,Electricity (MJ/m2),48.298406165054224
+111,Energy - End Use Intensities,Fans (elec),Fairbanks,Electricity (MJ/m2),44.057813578367494
+112,Energy - End Use Intensities,Pumps (elec),Miami,Electricity (MJ/m2),0.426052486676516
+113,Energy - End Use Intensities,Pumps (elec),Houston,Electricity (MJ/m2),0.426052486676516
+114,Energy - End Use Intensities,Pumps (elec),Phoenix,Electricity (MJ/m2),0.426052486676516
+115,Energy - End Use Intensities,Pumps (elec),Atlanta,Electricity (MJ/m2),0.426052486676516
+116,Energy - End Use Intensities,Pumps (elec),Los Angeles,Electricity (MJ/m2),0.426052486676516
+117,Energy - End Use Intensities,Pumps (elec),Las Vegas,Electricity (MJ/m2),0.426052486676516
+118,Energy - End Use Intensities,Pumps (elec),San Francisco,Electricity (MJ/m2),0.426052486676516
+119,Energy - End Use Intensities,Pumps (elec),Baltimore,Electricity (MJ/m2),0.426052486676516
+120,Energy - End Use Intensities,Pumps (elec),Albuquerque,Electricity (MJ/m2),0.426052486676516
+121,Energy - End Use Intensities,Pumps (elec),Seattle,Electricity (MJ/m2),0.426052486676516
+122,Energy - End Use Intensities,Pumps (elec),Chicago,Electricity (MJ/m2),0.426052486676516
+123,Energy - End Use Intensities,Pumps (elec),Boulder,Electricity (MJ/m2),0.426052486676516
+124,Energy - End Use Intensities,Pumps (elec),Minneapolis,Electricity (MJ/m2),0.426052486676516
+125,Energy - End Use Intensities,Pumps (elec),Helena,Electricity (MJ/m2),0.426052486676516
+126,Energy - End Use Intensities,Pumps (elec),Duluth,Electricity (MJ/m2),0.426052486676516
+127,Energy - End Use Intensities,Pumps (elec),Fairbanks,Electricity (MJ/m2),0.426052486676516
+128,Energy - End Use Intensities,Heat Rejection (elec),Miami,Electricity (MJ/m2),0.0
+129,Energy - End Use Intensities,Heat Rejection (elec),Houston,Electricity (MJ/m2),0.0
+130,Energy - End Use Intensities,Heat Rejection (elec),Phoenix,Electricity (MJ/m2),0.0
+131,Energy - End Use Intensities,Heat Rejection (elec),Atlanta,Electricity (MJ/m2),0.0
+132,Energy - End Use Intensities,Heat Rejection (elec),Los Angeles,Electricity (MJ/m2),0.0
+133,Energy - End Use Intensities,Heat Rejection (elec),Las Vegas,Electricity (MJ/m2),0.0
+134,Energy - End Use Intensities,Heat Rejection (elec),San Francisco,Electricity (MJ/m2),0.0
+135,Energy - End Use Intensities,Heat Rejection (elec),Baltimore,Electricity (MJ/m2),0.0
+136,Energy - End Use Intensities,Heat Rejection (elec),Albuquerque,Electricity (MJ/m2),0.0
+137,Energy - End Use Intensities,Heat Rejection (elec),Seattle,Electricity (MJ/m2),0.0
+138,Energy - End Use Intensities,Heat Rejection (elec),Chicago,Electricity (MJ/m2),0.0
+139,Energy - End Use Intensities,Heat Rejection (elec),Boulder,Electricity (MJ/m2),0.0
+140,Energy - End Use Intensities,Heat Rejection (elec),Minneapolis,Electricity (MJ/m2),0.0
+141,Energy - End Use Intensities,Heat Rejection (elec),Helena,Electricity (MJ/m2),0.0
+142,Energy - End Use Intensities,Heat Rejection (elec),Duluth,Electricity (MJ/m2),0.0
+143,Energy - End Use Intensities,Heat Rejection (elec),Fairbanks,Electricity (MJ/m2),0.0
+144,Energy - End Use Intensities,Humidification (elec),Miami,Electricity (MJ/m2),0.0
+145,Energy - End Use Intensities,Humidification (elec),Houston,Electricity (MJ/m2),0.0
+146,Energy - End Use Intensities,Humidification (elec),Phoenix,Electricity (MJ/m2),0.0
+147,Energy - End Use Intensities,Humidification (elec),Atlanta,Electricity (MJ/m2),0.0
+148,Energy - End Use Intensities,Humidification (elec),Los Angeles,Electricity (MJ/m2),0.0
+149,Energy - End Use Intensities,Humidification (elec),Las Vegas,Electricity (MJ/m2),0.0
+150,Energy - End Use Intensities,Humidification (elec),San Francisco,Electricity (MJ/m2),0.0
+151,Energy - End Use Intensities,Humidification (elec),Baltimore,Electricity (MJ/m2),0.0
+152,Energy - End Use Intensities,Humidification (elec),Albuquerque,Electricity (MJ/m2),0.0
+153,Energy - End Use Intensities,Humidification (elec),Seattle,Electricity (MJ/m2),0.0
+154,Energy - End Use Intensities,Humidification (elec),Chicago,Electricity (MJ/m2),0.0
+155,Energy - End Use Intensities,Humidification (elec),Boulder,Electricity (MJ/m2),0.0
+156,Energy - End Use Intensities,Humidification (elec),Minneapolis,Electricity (MJ/m2),0.0
+157,Energy - End Use Intensities,Humidification (elec),Helena,Electricity (MJ/m2),0.0
+158,Energy - End Use Intensities,Humidification (elec),Duluth,Electricity (MJ/m2),0.0
+159,Energy - End Use Intensities,Humidification (elec),Fairbanks,Electricity (MJ/m2),0.0
+160,Energy - End Use Intensities,Heat Recovery (elec),Miami,Electricity (MJ/m2),0.0
+161,Energy - End Use Intensities,Heat Recovery (elec),Houston,Electricity (MJ/m2),0.0
+162,Energy - End Use Intensities,Heat Recovery (elec),Phoenix,Electricity (MJ/m2),0.0
+163,Energy - End Use Intensities,Heat Recovery (elec),Atlanta,Electricity (MJ/m2),0.0
+164,Energy - End Use Intensities,Heat Recovery (elec),Los Angeles,Electricity (MJ/m2),0.0
+165,Energy - End Use Intensities,Heat Recovery (elec),Las Vegas,Electricity (MJ/m2),0.0
+166,Energy - End Use Intensities,Heat Recovery (elec),San Francisco,Electricity (MJ/m2),0.0
+167,Energy - End Use Intensities,Heat Recovery (elec),Baltimore,Electricity (MJ/m2),0.0
+168,Energy - End Use Intensities,Heat Recovery (elec),Albuquerque,Electricity (MJ/m2),0.0
+169,Energy - End Use Intensities,Heat Recovery (elec),Seattle,Electricity (MJ/m2),0.0
+170,Energy - End Use Intensities,Heat Recovery (elec),Chicago,Electricity (MJ/m2),0.0
+171,Energy - End Use Intensities,Heat Recovery (elec),Boulder,Electricity (MJ/m2),0.0
+172,Energy - End Use Intensities,Heat Recovery (elec),Minneapolis,Electricity (MJ/m2),0.0
+173,Energy - End Use Intensities,Heat Recovery (elec),Helena,Electricity (MJ/m2),0.0
+174,Energy - End Use Intensities,Heat Recovery (elec),Duluth,Electricity (MJ/m2),0.0
+175,Energy - End Use Intensities,Heat Recovery (elec),Fairbanks,Electricity (MJ/m2),0.0
+176,Energy - End Use Intensities,Water Systems (elec),Miami,Electricity (MJ/m2),0.0
+177,Energy - End Use Intensities,Water Systems (elec),Houston,Electricity (MJ/m2),0.0
+178,Energy - End Use Intensities,Water Systems (elec),Phoenix,Electricity (MJ/m2),0.0
+179,Energy - End Use Intensities,Water Systems (elec),Atlanta,Electricity (MJ/m2),0.0
+180,Energy - End Use Intensities,Water Systems (elec),Los Angeles,Electricity (MJ/m2),0.0
+181,Energy - End Use Intensities,Water Systems (elec),Las Vegas,Electricity (MJ/m2),0.0
+182,Energy - End Use Intensities,Water Systems (elec),San Francisco,Electricity (MJ/m2),0.0
+183,Energy - End Use Intensities,Water Systems (elec),Baltimore,Electricity (MJ/m2),0.0
+184,Energy - End Use Intensities,Water Systems (elec),Albuquerque,Electricity (MJ/m2),0.0
+185,Energy - End Use Intensities,Water Systems (elec),Seattle,Electricity (MJ/m2),0.0
+186,Energy - End Use Intensities,Water Systems (elec),Chicago,Electricity (MJ/m2),0.0
+187,Energy - End Use Intensities,Water Systems (elec),Boulder,Electricity (MJ/m2),0.0
+188,Energy - End Use Intensities,Water Systems (elec),Minneapolis,Electricity (MJ/m2),0.0
+189,Energy - End Use Intensities,Water Systems (elec),Helena,Electricity (MJ/m2),0.0
+190,Energy - End Use Intensities,Water Systems (elec),Duluth,Electricity (MJ/m2),0.0
+191,Energy - End Use Intensities,Water Systems (elec),Fairbanks,Electricity (MJ/m2),0.0
+192,Energy - End Use Intensities,Refrigeration (elec),Miami,Electricity (MJ/m2),0.0
+193,Energy - End Use Intensities,Refrigeration (elec),Houston,Electricity (MJ/m2),0.0
+194,Energy - End Use Intensities,Refrigeration (elec),Phoenix,Electricity (MJ/m2),0.0
+195,Energy - End Use Intensities,Refrigeration (elec),Atlanta,Electricity (MJ/m2),0.0
+196,Energy - End Use Intensities,Refrigeration (elec),Los Angeles,Electricity (MJ/m2),0.0
+197,Energy - End Use Intensities,Refrigeration (elec),Las Vegas,Electricity (MJ/m2),0.0
+198,Energy - End Use Intensities,Refrigeration (elec),San Francisco,Electricity (MJ/m2),0.0
+199,Energy - End Use Intensities,Refrigeration (elec),Baltimore,Electricity (MJ/m2),0.0
+200,Energy - End Use Intensities,Refrigeration (elec),Albuquerque,Electricity (MJ/m2),0.0
+201,Energy - End Use Intensities,Refrigeration (elec),Seattle,Electricity (MJ/m2),0.0
+202,Energy - End Use Intensities,Refrigeration (elec),Chicago,Electricity (MJ/m2),0.0
+203,Energy - End Use Intensities,Refrigeration (elec),Boulder,Electricity (MJ/m2),0.0
+204,Energy - End Use Intensities,Refrigeration (elec),Minneapolis,Electricity (MJ/m2),0.0
+205,Energy - End Use Intensities,Refrigeration (elec),Helena,Electricity (MJ/m2),0.0
+206,Energy - End Use Intensities,Refrigeration (elec),Duluth,Electricity (MJ/m2),0.0
+207,Energy - End Use Intensities,Refrigeration (elec),Fairbanks,Electricity (MJ/m2),0.0
+208,Energy - End Use Intensities,Generators (elec),Miami,Electricity (MJ/m2),0.0
+209,Energy - End Use Intensities,Generators (elec),Houston,Electricity (MJ/m2),0.0
+210,Energy - End Use Intensities,Generators (elec),Phoenix,Electricity (MJ/m2),0.0
+211,Energy - End Use Intensities,Generators (elec),Atlanta,Electricity (MJ/m2),0.0
+212,Energy - End Use Intensities,Generators (elec),Los Angeles,Electricity (MJ/m2),0.0
+213,Energy - End Use Intensities,Generators (elec),Las Vegas,Electricity (MJ/m2),0.0
+214,Energy - End Use Intensities,Generators (elec),San Francisco,Electricity (MJ/m2),0.0
+215,Energy - End Use Intensities,Generators (elec),Baltimore,Electricity (MJ/m2),0.0
+216,Energy - End Use Intensities,Generators (elec),Albuquerque,Electricity (MJ/m2),0.0
+217,Energy - End Use Intensities,Generators (elec),Seattle,Electricity (MJ/m2),0.0
+218,Energy - End Use Intensities,Generators (elec),Chicago,Electricity (MJ/m2),0.0
+219,Energy - End Use Intensities,Generators (elec),Boulder,Electricity (MJ/m2),0.0
+220,Energy - End Use Intensities,Generators (elec),Minneapolis,Electricity (MJ/m2),0.0
+221,Energy - End Use Intensities,Generators (elec),Helena,Electricity (MJ/m2),0.0
+222,Energy - End Use Intensities,Generators (elec),Duluth,Electricity (MJ/m2),0.0
+223,Energy - End Use Intensities,Generators (elec),Fairbanks,Electricity (MJ/m2),0.0
+224,Energy - End Use Intensities,Heating (gas),Miami,Gas (MJ/m2),1.896058142460988
+225,Energy - End Use Intensities,Heating (gas),Houston,Gas (MJ/m2),27.237460727179407
+226,Energy - End Use Intensities,Heating (gas),Phoenix,Gas (MJ/m2),20.60250299607085
+227,Energy - End Use Intensities,Heating (gas),Atlanta,Gas (MJ/m2),48.59240729621112
+228,Energy - End Use Intensities,Heating (gas),Los Angeles,Gas (MJ/m2),17.83191606516859
+229,Energy - End Use Intensities,Heating (gas),Las Vegas,Gas (MJ/m2),33.61329881726833
+230,Energy - End Use Intensities,Heating (gas),San Francisco,Gas (MJ/m2),47.264419135985484
+231,Energy - End Use Intensities,Heating (gas),Baltimore,Gas (MJ/m2),85.14073435502878
+232,Energy - End Use Intensities,Heating (gas),Albuquerque,Gas (MJ/m2),56.76713366337867
+233,Energy - End Use Intensities,Heating (gas),Seattle,Gas (MJ/m2),77.22761916389068
+234,Energy - End Use Intensities,Heating (gas),Chicago,Gas (MJ/m2),118.39525213088531
+235,Energy - End Use Intensities,Heating (gas),Boulder,Gas (MJ/m2),85.58422758677393
+236,Energy - End Use Intensities,Heating (gas),Minneapolis,Gas (MJ/m2),155.3222925111932
+237,Energy - End Use Intensities,Heating (gas),Helena,Gas (MJ/m2),126.61731766323913
+238,Energy - End Use Intensities,Heating (gas),Duluth,Gas (MJ/m2),195.25910718334458
+239,Energy - End Use Intensities,Heating (gas),Fairbanks,Gas (MJ/m2),321.28343951425035
+240,Energy - End Use Intensities,Cooling (gas),Miami,Gas (MJ/m2),0.0
+241,Energy - End Use Intensities,Cooling (gas),Houston,Gas (MJ/m2),0.0
+242,Energy - End Use Intensities,Cooling (gas),Phoenix,Gas (MJ/m2),0.0
+243,Energy - End Use Intensities,Cooling (gas),Atlanta,Gas (MJ/m2),0.0
+244,Energy - End Use Intensities,Cooling (gas),Los Angeles,Gas (MJ/m2),0.0
+245,Energy - End Use Intensities,Cooling (gas),Las Vegas,Gas (MJ/m2),0.0
+246,Energy - End Use Intensities,Cooling (gas),San Francisco,Gas (MJ/m2),0.0
+247,Energy - End Use Intensities,Cooling (gas),Baltimore,Gas (MJ/m2),0.0
+248,Energy - End Use Intensities,Cooling (gas),Albuquerque,Gas (MJ/m2),0.0
+249,Energy - End Use Intensities,Cooling (gas),Seattle,Gas (MJ/m2),0.0
+250,Energy - End Use Intensities,Cooling (gas),Chicago,Gas (MJ/m2),0.0
+251,Energy - End Use Intensities,Cooling (gas),Boulder,Gas (MJ/m2),0.0
+252,Energy - End Use Intensities,Cooling (gas),Minneapolis,Gas (MJ/m2),0.0
+253,Energy - End Use Intensities,Cooling (gas),Helena,Gas (MJ/m2),0.0
+254,Energy - End Use Intensities,Cooling (gas),Duluth,Gas (MJ/m2),0.0
+255,Energy - End Use Intensities,Cooling (gas),Fairbanks,Gas (MJ/m2),0.0
+256,Energy - End Use Intensities,Interior Lighting (gas),Miami,Gas (MJ/m2),0.0
+257,Energy - End Use Intensities,Interior Lighting (gas),Houston,Gas (MJ/m2),0.0
+258,Energy - End Use Intensities,Interior Lighting (gas),Phoenix,Gas (MJ/m2),0.0
+259,Energy - End Use Intensities,Interior Lighting (gas),Atlanta,Gas (MJ/m2),0.0
+260,Energy - End Use Intensities,Interior Lighting (gas),Los Angeles,Gas (MJ/m2),0.0
+261,Energy - End Use Intensities,Interior Lighting (gas),Las Vegas,Gas (MJ/m2),0.0
+262,Energy - End Use Intensities,Interior Lighting (gas),San Francisco,Gas (MJ/m2),0.0
+263,Energy - End Use Intensities,Interior Lighting (gas),Baltimore,Gas (MJ/m2),0.0
+264,Energy - End Use Intensities,Interior Lighting (gas),Albuquerque,Gas (MJ/m2),0.0
+265,Energy - End Use Intensities,Interior Lighting (gas),Seattle,Gas (MJ/m2),0.0
+266,Energy - End Use Intensities,Interior Lighting (gas),Chicago,Gas (MJ/m2),0.0
+267,Energy - End Use Intensities,Interior Lighting (gas),Boulder,Gas (MJ/m2),0.0
+268,Energy - End Use Intensities,Interior Lighting (gas),Minneapolis,Gas (MJ/m2),0.0
+269,Energy - End Use Intensities,Interior Lighting (gas),Helena,Gas (MJ/m2),0.0
+270,Energy - End Use Intensities,Interior Lighting (gas),Duluth,Gas (MJ/m2),0.0
+271,Energy - End Use Intensities,Interior Lighting (gas),Fairbanks,Gas (MJ/m2),0.0
+272,Energy - End Use Intensities,Exterior Lighting (gas),Miami,Gas (MJ/m2),0.0
+273,Energy - End Use Intensities,Exterior Lighting (gas),Houston,Gas (MJ/m2),0.0
+274,Energy - End Use Intensities,Exterior Lighting (gas),Phoenix,Gas (MJ/m2),0.0
+275,Energy - End Use Intensities,Exterior Lighting (gas),Atlanta,Gas (MJ/m2),0.0
+276,Energy - End Use Intensities,Exterior Lighting (gas),Los Angeles,Gas (MJ/m2),0.0
+277,Energy - End Use Intensities,Exterior Lighting (gas),Las Vegas,Gas (MJ/m2),0.0
+278,Energy - End Use Intensities,Exterior Lighting (gas),San Francisco,Gas (MJ/m2),0.0
+279,Energy - End Use Intensities,Exterior Lighting (gas),Baltimore,Gas (MJ/m2),0.0
+280,Energy - End Use Intensities,Exterior Lighting (gas),Albuquerque,Gas (MJ/m2),0.0
+281,Energy - End Use Intensities,Exterior Lighting (gas),Seattle,Gas (MJ/m2),0.0
+282,Energy - End Use Intensities,Exterior Lighting (gas),Chicago,Gas (MJ/m2),0.0
+283,Energy - End Use Intensities,Exterior Lighting (gas),Boulder,Gas (MJ/m2),0.0
+284,Energy - End Use Intensities,Exterior Lighting (gas),Minneapolis,Gas (MJ/m2),0.0
+285,Energy - End Use Intensities,Exterior Lighting (gas),Helena,Gas (MJ/m2),0.0
+286,Energy - End Use Intensities,Exterior Lighting (gas),Duluth,Gas (MJ/m2),0.0
+287,Energy - End Use Intensities,Exterior Lighting (gas),Fairbanks,Gas (MJ/m2),0.0
+288,Energy - End Use Intensities,Interior Equipment (gas),Miami,Gas (MJ/m2),47.2096053657698
+289,Energy - End Use Intensities,Interior Equipment (gas),Houston,Gas (MJ/m2),47.2096053657698
+290,Energy - End Use Intensities,Interior Equipment (gas),Phoenix,Gas (MJ/m2),47.2096053657698
+291,Energy - End Use Intensities,Interior Equipment (gas),Atlanta,Gas (MJ/m2),47.2096053657698
+292,Energy - End Use Intensities,Interior Equipment (gas),Los Angeles,Gas (MJ/m2),47.2096053657698
+293,Energy - End Use Intensities,Interior Equipment (gas),Las Vegas,Gas (MJ/m2),47.2096053657698
+294,Energy - End Use Intensities,Interior Equipment (gas),San Francisco,Gas (MJ/m2),47.2096053657698
+295,Energy - End Use Intensities,Interior Equipment (gas),Baltimore,Gas (MJ/m2),47.2096053657698
+296,Energy - End Use Intensities,Interior Equipment (gas),Albuquerque,Gas (MJ/m2),47.2096053657698
+297,Energy - End Use Intensities,Interior Equipment (gas),Seattle,Gas (MJ/m2),47.2096053657698
+298,Energy - End Use Intensities,Interior Equipment (gas),Chicago,Gas (MJ/m2),47.2096053657698
+299,Energy - End Use Intensities,Interior Equipment (gas),Boulder,Gas (MJ/m2),47.2096053657698
+300,Energy - End Use Intensities,Interior Equipment (gas),Minneapolis,Gas (MJ/m2),47.2096053657698
+301,Energy - End Use Intensities,Interior Equipment (gas),Helena,Gas (MJ/m2),47.2096053657698
+302,Energy - End Use Intensities,Interior Equipment (gas),Duluth,Gas (MJ/m2),47.2096053657698
+303,Energy - End Use Intensities,Interior Equipment (gas),Fairbanks,Gas (MJ/m2),47.2096053657698
+304,Energy - End Use Intensities,Exterior Equipment (gas),Miami,Gas (MJ/m2),0.0
+305,Energy - End Use Intensities,Exterior Equipment (gas),Houston,Gas (MJ/m2),0.0
+306,Energy - End Use Intensities,Exterior Equipment (gas),Phoenix,Gas (MJ/m2),0.0
+307,Energy - End Use Intensities,Exterior Equipment (gas),Atlanta,Gas (MJ/m2),0.0
+308,Energy - End Use Intensities,Exterior Equipment (gas),Los Angeles,Gas (MJ/m2),0.0
+309,Energy - End Use Intensities,Exterior Equipment (gas),Las Vegas,Gas (MJ/m2),0.0
+310,Energy - End Use Intensities,Exterior Equipment (gas),San Francisco,Gas (MJ/m2),0.0
+311,Energy - End Use Intensities,Exterior Equipment (gas),Baltimore,Gas (MJ/m2),0.0
+312,Energy - End Use Intensities,Exterior Equipment (gas),Albuquerque,Gas (MJ/m2),0.0
+313,Energy - End Use Intensities,Exterior Equipment (gas),Seattle,Gas (MJ/m2),0.0
+314,Energy - End Use Intensities,Exterior Equipment (gas),Chicago,Gas (MJ/m2),0.0
+315,Energy - End Use Intensities,Exterior Equipment (gas),Boulder,Gas (MJ/m2),0.0
+316,Energy - End Use Intensities,Exterior Equipment (gas),Minneapolis,Gas (MJ/m2),0.0
+317,Energy - End Use Intensities,Exterior Equipment (gas),Helena,Gas (MJ/m2),0.0
+318,Energy - End Use Intensities,Exterior Equipment (gas),Duluth,Gas (MJ/m2),0.0
+319,Energy - End Use Intensities,Exterior Equipment (gas),Fairbanks,Gas (MJ/m2),0.0
+320,Energy - End Use Intensities,Fans (gas),Miami,Gas (MJ/m2),0.0
+321,Energy - End Use Intensities,Fans (gas),Houston,Gas (MJ/m2),0.0
+322,Energy - End Use Intensities,Fans (gas),Phoenix,Gas (MJ/m2),0.0
+323,Energy - End Use Intensities,Fans (gas),Atlanta,Gas (MJ/m2),0.0
+324,Energy - End Use Intensities,Fans (gas),Los Angeles,Gas (MJ/m2),0.0
+325,Energy - End Use Intensities,Fans (gas),Las Vegas,Gas (MJ/m2),0.0
+326,Energy - End Use Intensities,Fans (gas),San Francisco,Gas (MJ/m2),0.0
+327,Energy - End Use Intensities,Fans (gas),Baltimore,Gas (MJ/m2),0.0
+328,Energy - End Use Intensities,Fans (gas),Albuquerque,Gas (MJ/m2),0.0
+329,Energy - End Use Intensities,Fans (gas),Seattle,Gas (MJ/m2),0.0
+330,Energy - End Use Intensities,Fans (gas),Chicago,Gas (MJ/m2),0.0
+331,Energy - End Use Intensities,Fans (gas),Boulder,Gas (MJ/m2),0.0
+332,Energy - End Use Intensities,Fans (gas),Minneapolis,Gas (MJ/m2),0.0
+333,Energy - End Use Intensities,Fans (gas),Helena,Gas (MJ/m2),0.0
+334,Energy - End Use Intensities,Fans (gas),Duluth,Gas (MJ/m2),0.0
+335,Energy - End Use Intensities,Fans (gas),Fairbanks,Gas (MJ/m2),0.0
+336,Energy - End Use Intensities,Pumps (gas),Miami,Gas (MJ/m2),0.0
+337,Energy - End Use Intensities,Pumps (gas),Houston,Gas (MJ/m2),0.0
+338,Energy - End Use Intensities,Pumps (gas),Phoenix,Gas (MJ/m2),0.0
+339,Energy - End Use Intensities,Pumps (gas),Atlanta,Gas (MJ/m2),0.0
+340,Energy - End Use Intensities,Pumps (gas),Los Angeles,Gas (MJ/m2),0.0
+341,Energy - End Use Intensities,Pumps (gas),Las Vegas,Gas (MJ/m2),0.0
+342,Energy - End Use Intensities,Pumps (gas),San Francisco,Gas (MJ/m2),0.0
+343,Energy - End Use Intensities,Pumps (gas),Baltimore,Gas (MJ/m2),0.0
+344,Energy - End Use Intensities,Pumps (gas),Albuquerque,Gas (MJ/m2),0.0
+345,Energy - End Use Intensities,Pumps (gas),Seattle,Gas (MJ/m2),0.0
+346,Energy - End Use Intensities,Pumps (gas),Chicago,Gas (MJ/m2),0.0
+347,Energy - End Use Intensities,Pumps (gas),Boulder,Gas (MJ/m2),0.0
+348,Energy - End Use Intensities,Pumps (gas),Minneapolis,Gas (MJ/m2),0.0
+349,Energy - End Use Intensities,Pumps (gas),Helena,Gas (MJ/m2),0.0
+350,Energy - End Use Intensities,Pumps (gas),Duluth,Gas (MJ/m2),0.0
+351,Energy - End Use Intensities,Pumps (gas),Fairbanks,Gas (MJ/m2),0.0
+352,Energy - End Use Intensities,Heat Rejection (gas),Miami,Gas (MJ/m2),0.0
+353,Energy - End Use Intensities,Heat Rejection (gas),Houston,Gas (MJ/m2),0.0
+354,Energy - End Use Intensities,Heat Rejection (gas),Phoenix,Gas (MJ/m2),0.0
+355,Energy - End Use Intensities,Heat Rejection (gas),Atlanta,Gas (MJ/m2),0.0
+356,Energy - End Use Intensities,Heat Rejection (gas),Los Angeles,Gas (MJ/m2),0.0
+357,Energy - End Use Intensities,Heat Rejection (gas),Las Vegas,Gas (MJ/m2),0.0
+358,Energy - End Use Intensities,Heat Rejection (gas),San Francisco,Gas (MJ/m2),0.0
+359,Energy - End Use Intensities,Heat Rejection (gas),Baltimore,Gas (MJ/m2),0.0
+360,Energy - End Use Intensities,Heat Rejection (gas),Albuquerque,Gas (MJ/m2),0.0
+361,Energy - End Use Intensities,Heat Rejection (gas),Seattle,Gas (MJ/m2),0.0
+362,Energy - End Use Intensities,Heat Rejection (gas),Chicago,Gas (MJ/m2),0.0
+363,Energy - End Use Intensities,Heat Rejection (gas),Boulder,Gas (MJ/m2),0.0
+364,Energy - End Use Intensities,Heat Rejection (gas),Minneapolis,Gas (MJ/m2),0.0
+365,Energy - End Use Intensities,Heat Rejection (gas),Helena,Gas (MJ/m2),0.0
+366,Energy - End Use Intensities,Heat Rejection (gas),Duluth,Gas (MJ/m2),0.0
+367,Energy - End Use Intensities,Heat Rejection (gas),Fairbanks,Gas (MJ/m2),0.0
+368,Energy - End Use Intensities,Humidification (gas),Miami,Gas (MJ/m2),0.0
+369,Energy - End Use Intensities,Humidification (gas),Houston,Gas (MJ/m2),0.0
+370,Energy - End Use Intensities,Humidification (gas),Phoenix,Gas (MJ/m2),0.0
+371,Energy - End Use Intensities,Humidification (gas),Atlanta,Gas (MJ/m2),0.0
+372,Energy - End Use Intensities,Humidification (gas),Los Angeles,Gas (MJ/m2),0.0
+373,Energy - End Use Intensities,Humidification (gas),Las Vegas,Gas (MJ/m2),0.0
+374,Energy - End Use Intensities,Humidification (gas),San Francisco,Gas (MJ/m2),0.0
+375,Energy - End Use Intensities,Humidification (gas),Baltimore,Gas (MJ/m2),0.0
+376,Energy - End Use Intensities,Humidification (gas),Albuquerque,Gas (MJ/m2),0.0
+377,Energy - End Use Intensities,Humidification (gas),Seattle,Gas (MJ/m2),0.0
+378,Energy - End Use Intensities,Humidification (gas),Chicago,Gas (MJ/m2),0.0
+379,Energy - End Use Intensities,Humidification (gas),Boulder,Gas (MJ/m2),0.0
+380,Energy - End Use Intensities,Humidification (gas),Minneapolis,Gas (MJ/m2),0.0
+381,Energy - End Use Intensities,Humidification (gas),Helena,Gas (MJ/m2),0.0
+382,Energy - End Use Intensities,Humidification (gas),Duluth,Gas (MJ/m2),0.0
+383,Energy - End Use Intensities,Humidification (gas),Fairbanks,Gas (MJ/m2),0.0
+384,Energy - End Use Intensities,Heat Recovery (gas),Miami,Gas (MJ/m2),0.0
+385,Energy - End Use Intensities,Heat Recovery (gas),Houston,Gas (MJ/m2),0.0
+386,Energy - End Use Intensities,Heat Recovery (gas),Phoenix,Gas (MJ/m2),0.0
+387,Energy - End Use Intensities,Heat Recovery (gas),Atlanta,Gas (MJ/m2),0.0
+388,Energy - End Use Intensities,Heat Recovery (gas),Los Angeles,Gas (MJ/m2),0.0
+389,Energy - End Use Intensities,Heat Recovery (gas),Las Vegas,Gas (MJ/m2),0.0
+390,Energy - End Use Intensities,Heat Recovery (gas),San Francisco,Gas (MJ/m2),0.0
+391,Energy - End Use Intensities,Heat Recovery (gas),Baltimore,Gas (MJ/m2),0.0
+392,Energy - End Use Intensities,Heat Recovery (gas),Albuquerque,Gas (MJ/m2),0.0
+393,Energy - End Use Intensities,Heat Recovery (gas),Seattle,Gas (MJ/m2),0.0
+394,Energy - End Use Intensities,Heat Recovery (gas),Chicago,Gas (MJ/m2),0.0
+395,Energy - End Use Intensities,Heat Recovery (gas),Boulder,Gas (MJ/m2),0.0
+396,Energy - End Use Intensities,Heat Recovery (gas),Minneapolis,Gas (MJ/m2),0.0
+397,Energy - End Use Intensities,Heat Recovery (gas),Helena,Gas (MJ/m2),0.0
+398,Energy - End Use Intensities,Heat Recovery (gas),Duluth,Gas (MJ/m2),0.0
+399,Energy - End Use Intensities,Heat Recovery (gas),Fairbanks,Gas (MJ/m2),0.0
+400,Energy - End Use Intensities,Water Systems (gas),Miami,Gas (MJ/m2),61.60818618742821
+401,Energy - End Use Intensities,Water Systems (gas),Houston,Gas (MJ/m2),74.01104746623346
+402,Energy - End Use Intensities,Water Systems (gas),Phoenix,Gas (MJ/m2),66.88525733819348
+403,Energy - End Use Intensities,Water Systems (gas),Atlanta,Gas (MJ/m2),85.95546630323476
+404,Energy - End Use Intensities,Water Systems (gas),Los Angeles,Gas (MJ/m2),83.63086413908745
+405,Energy - End Use Intensities,Water Systems (gas),Las Vegas,Gas (MJ/m2),75.47607005199833
+406,Energy - End Use Intensities,Water Systems (gas),San Francisco,Gas (MJ/m2),93.85363228431405
+407,Energy - End Use Intensities,Water Systems (gas),Baltimore,Gas (MJ/m2),95.33609561514753
+408,Energy - End Use Intensities,Water Systems (gas),Albuquerque,Gas (MJ/m2),93.56212268816695
+409,Energy - End Use Intensities,Water Systems (gas),Seattle,Gas (MJ/m2),100.22448730438336
+410,Energy - End Use Intensities,Water Systems (gas),Chicago,Gas (MJ/m2),103.57560189256999
+411,Energy - End Use Intensities,Water Systems (gas),Boulder,Gas (MJ/m2),103.14705787088367
+412,Energy - End Use Intensities,Water Systems (gas),Minneapolis,Gas (MJ/m2),110.69640895059037
+413,Energy - End Use Intensities,Water Systems (gas),Helena,Gas (MJ/m2),111.98702408566893
+414,Energy - End Use Intensities,Water Systems (gas),Duluth,Gas (MJ/m2),122.43652191678771
+415,Energy - End Use Intensities,Water Systems (gas),Fairbanks,Gas (MJ/m2),136.6432545426912
+416,Energy - End Use Intensities,Refrigeration (gas),Miami,Gas (MJ/m2),0.0
+417,Energy - End Use Intensities,Refrigeration (gas),Houston,Gas (MJ/m2),0.0
+418,Energy - End Use Intensities,Refrigeration (gas),Phoenix,Gas (MJ/m2),0.0
+419,Energy - End Use Intensities,Refrigeration (gas),Atlanta,Gas (MJ/m2),0.0
+420,Energy - End Use Intensities,Refrigeration (gas),Los Angeles,Gas (MJ/m2),0.0
+421,Energy - End Use Intensities,Refrigeration (gas),Las Vegas,Gas (MJ/m2),0.0
+422,Energy - End Use Intensities,Refrigeration (gas),San Francisco,Gas (MJ/m2),0.0
+423,Energy - End Use Intensities,Refrigeration (gas),Baltimore,Gas (MJ/m2),0.0
+424,Energy - End Use Intensities,Refrigeration (gas),Albuquerque,Gas (MJ/m2),0.0
+425,Energy - End Use Intensities,Refrigeration (gas),Seattle,Gas (MJ/m2),0.0
+426,Energy - End Use Intensities,Refrigeration (gas),Chicago,Gas (MJ/m2),0.0
+427,Energy - End Use Intensities,Refrigeration (gas),Boulder,Gas (MJ/m2),0.0
+428,Energy - End Use Intensities,Refrigeration (gas),Minneapolis,Gas (MJ/m2),0.0
+429,Energy - End Use Intensities,Refrigeration (gas),Helena,Gas (MJ/m2),0.0
+430,Energy - End Use Intensities,Refrigeration (gas),Duluth,Gas (MJ/m2),0.0
+431,Energy - End Use Intensities,Refrigeration (gas),Fairbanks,Gas (MJ/m2),0.0
+432,Energy - End Use Intensities,Generators (gas),Miami,Gas (MJ/m2),0.0
+433,Energy - End Use Intensities,Generators (gas),Houston,Gas (MJ/m2),0.0
+434,Energy - End Use Intensities,Generators (gas),Phoenix,Gas (MJ/m2),0.0
+435,Energy - End Use Intensities,Generators (gas),Atlanta,Gas (MJ/m2),0.0
+436,Energy - End Use Intensities,Generators (gas),Los Angeles,Gas (MJ/m2),0.0
+437,Energy - End Use Intensities,Generators (gas),Las Vegas,Gas (MJ/m2),0.0
+438,Energy - End Use Intensities,Generators (gas),San Francisco,Gas (MJ/m2),0.0
+439,Energy - End Use Intensities,Generators (gas),Baltimore,Gas (MJ/m2),0.0
+440,Energy - End Use Intensities,Generators (gas),Albuquerque,Gas (MJ/m2),0.0
+441,Energy - End Use Intensities,Generators (gas),Seattle,Gas (MJ/m2),0.0
+442,Energy - End Use Intensities,Generators (gas),Chicago,Gas (MJ/m2),0.0
+443,Energy - End Use Intensities,Generators (gas),Boulder,Gas (MJ/m2),0.0
+444,Energy - End Use Intensities,Generators (gas),Minneapolis,Gas (MJ/m2),0.0
+445,Energy - End Use Intensities,Generators (gas),Helena,Gas (MJ/m2),0.0
+446,Energy - End Use Intensities,Generators (gas),Duluth,Gas (MJ/m2),0.0
+447,Energy - End Use Intensities,Generators (gas),Fairbanks,Gas (MJ/m2),0.0
+448,Energy - End Use Intensities,Heating,Miami,Purchased Cooling (MJ/m2),0.0
+449,Energy - End Use Intensities,Heating,Houston,Purchased Cooling (MJ/m2),0.0
+450,Energy - End Use Intensities,Heating,Phoenix,Purchased Cooling (MJ/m2),0.0
+451,Energy - End Use Intensities,Heating,Atlanta,Purchased Cooling (MJ/m2),0.0
+452,Energy - End Use Intensities,Heating,Los Angeles,Purchased Cooling (MJ/m2),0.0
+453,Energy - End Use Intensities,Heating,Las Vegas,Purchased Cooling (MJ/m2),0.0
+454,Energy - End Use Intensities,Heating,San Francisco,Purchased Cooling (MJ/m2),0.0
+455,Energy - End Use Intensities,Heating,Baltimore,Purchased Cooling (MJ/m2),0.0
+456,Energy - End Use Intensities,Heating,Albuquerque,Purchased Cooling (MJ/m2),0.0
+457,Energy - End Use Intensities,Heating,Seattle,Purchased Cooling (MJ/m2),0.0
+458,Energy - End Use Intensities,Heating,Chicago,Purchased Cooling (MJ/m2),0.0
+459,Energy - End Use Intensities,Heating,Boulder,Purchased Cooling (MJ/m2),0.0
+460,Energy - End Use Intensities,Heating,Minneapolis,Purchased Cooling (MJ/m2),0.0
+461,Energy - End Use Intensities,Heating,Helena,Purchased Cooling (MJ/m2),0.0
+462,Energy - End Use Intensities,Heating,Duluth,Purchased Cooling (MJ/m2),0.0
+463,Energy - End Use Intensities,Heating,Fairbanks,Purchased Cooling (MJ/m2),0.0
+464,Energy - End Use Intensities,Cooling,Miami,Purchased Cooling (MJ/m2),0.0
+465,Energy - End Use Intensities,Cooling,Houston,Purchased Cooling (MJ/m2),0.0
+466,Energy - End Use Intensities,Cooling,Phoenix,Purchased Cooling (MJ/m2),0.0
+467,Energy - End Use Intensities,Cooling,Atlanta,Purchased Cooling (MJ/m2),0.0
+468,Energy - End Use Intensities,Cooling,Los Angeles,Purchased Cooling (MJ/m2),0.0
+469,Energy - End Use Intensities,Cooling,Las Vegas,Purchased Cooling (MJ/m2),0.0
+470,Energy - End Use Intensities,Cooling,San Francisco,Purchased Cooling (MJ/m2),0.0
+471,Energy - End Use Intensities,Cooling,Baltimore,Purchased Cooling (MJ/m2),0.0
+472,Energy - End Use Intensities,Cooling,Albuquerque,Purchased Cooling (MJ/m2),0.0
+473,Energy - End Use Intensities,Cooling,Seattle,Purchased Cooling (MJ/m2),0.0
+474,Energy - End Use Intensities,Cooling,Chicago,Purchased Cooling (MJ/m2),0.0
+475,Energy - End Use Intensities,Cooling,Boulder,Purchased Cooling (MJ/m2),0.0
+476,Energy - End Use Intensities,Cooling,Minneapolis,Purchased Cooling (MJ/m2),0.0
+477,Energy - End Use Intensities,Cooling,Helena,Purchased Cooling (MJ/m2),0.0
+478,Energy - End Use Intensities,Cooling,Duluth,Purchased Cooling (MJ/m2),0.0
+479,Energy - End Use Intensities,Cooling,Fairbanks,Purchased Cooling (MJ/m2),0.0
+480,Energy - End Use Intensities,Interior Lighting,Miami,Purchased Cooling (MJ/m2),0.0
+481,Energy - End Use Intensities,Interior Lighting,Houston,Purchased Cooling (MJ/m2),0.0
+482,Energy - End Use Intensities,Interior Lighting,Phoenix,Purchased Cooling (MJ/m2),0.0
+483,Energy - End Use Intensities,Interior Lighting,Atlanta,Purchased Cooling (MJ/m2),0.0
+484,Energy - End Use Intensities,Interior Lighting,Los Angeles,Purchased Cooling (MJ/m2),0.0
+485,Energy - End Use Intensities,Interior Lighting,Las Vegas,Purchased Cooling (MJ/m2),0.0
+486,Energy - End Use Intensities,Interior Lighting,San Francisco,Purchased Cooling (MJ/m2),0.0
+487,Energy - End Use Intensities,Interior Lighting,Baltimore,Purchased Cooling (MJ/m2),0.0
+488,Energy - End Use Intensities,Interior Lighting,Albuquerque,Purchased Cooling (MJ/m2),0.0
+489,Energy - End Use Intensities,Interior Lighting,Seattle,Purchased Cooling (MJ/m2),0.0
+490,Energy - End Use Intensities,Interior Lighting,Chicago,Purchased Cooling (MJ/m2),0.0
+491,Energy - End Use Intensities,Interior Lighting,Boulder,Purchased Cooling (MJ/m2),0.0
+492,Energy - End Use Intensities,Interior Lighting,Minneapolis,Purchased Cooling (MJ/m2),0.0
+493,Energy - End Use Intensities,Interior Lighting,Helena,Purchased Cooling (MJ/m2),0.0
+494,Energy - End Use Intensities,Interior Lighting,Duluth,Purchased Cooling (MJ/m2),0.0
+495,Energy - End Use Intensities,Interior Lighting,Fairbanks,Purchased Cooling (MJ/m2),0.0
+496,Energy - End Use Intensities,Exterior Lighting,Miami,Purchased Cooling (MJ/m2),0.0
+497,Energy - End Use Intensities,Exterior Lighting,Houston,Purchased Cooling (MJ/m2),0.0
+498,Energy - End Use Intensities,Exterior Lighting,Phoenix,Purchased Cooling (MJ/m2),0.0
+499,Energy - End Use Intensities,Exterior Lighting,Atlanta,Purchased Cooling (MJ/m2),0.0
+500,Energy - End Use Intensities,Exterior Lighting,Los Angeles,Purchased Cooling (MJ/m2),0.0
+501,Energy - End Use Intensities,Exterior Lighting,Las Vegas,Purchased Cooling (MJ/m2),0.0
+502,Energy - End Use Intensities,Exterior Lighting,San Francisco,Purchased Cooling (MJ/m2),0.0
+503,Energy - End Use Intensities,Exterior Lighting,Baltimore,Purchased Cooling (MJ/m2),0.0
+504,Energy - End Use Intensities,Exterior Lighting,Albuquerque,Purchased Cooling (MJ/m2),0.0
+505,Energy - End Use Intensities,Exterior Lighting,Seattle,Purchased Cooling (MJ/m2),0.0
+506,Energy - End Use Intensities,Exterior Lighting,Chicago,Purchased Cooling (MJ/m2),0.0
+507,Energy - End Use Intensities,Exterior Lighting,Boulder,Purchased Cooling (MJ/m2),0.0
+508,Energy - End Use Intensities,Exterior Lighting,Minneapolis,Purchased Cooling (MJ/m2),0.0
+509,Energy - End Use Intensities,Exterior Lighting,Helena,Purchased Cooling (MJ/m2),0.0
+510,Energy - End Use Intensities,Exterior Lighting,Duluth,Purchased Cooling (MJ/m2),0.0
+511,Energy - End Use Intensities,Exterior Lighting,Fairbanks,Purchased Cooling (MJ/m2),0.0
+512,Energy - End Use Intensities,Interior Equipment,Miami,Purchased Cooling (MJ/m2),0.0
+513,Energy - End Use Intensities,Interior Equipment,Houston,Purchased Cooling (MJ/m2),0.0
+514,Energy - End Use Intensities,Interior Equipment,Phoenix,Purchased Cooling (MJ/m2),0.0
+515,Energy - End Use Intensities,Interior Equipment,Atlanta,Purchased Cooling (MJ/m2),0.0
+516,Energy - End Use Intensities,Interior Equipment,Los Angeles,Purchased Cooling (MJ/m2),0.0
+517,Energy - End Use Intensities,Interior Equipment,Las Vegas,Purchased Cooling (MJ/m2),0.0
+518,Energy - End Use Intensities,Interior Equipment,San Francisco,Purchased Cooling (MJ/m2),0.0
+519,Energy - End Use Intensities,Interior Equipment,Baltimore,Purchased Cooling (MJ/m2),0.0
+520,Energy - End Use Intensities,Interior Equipment,Albuquerque,Purchased Cooling (MJ/m2),0.0
+521,Energy - End Use Intensities,Interior Equipment,Seattle,Purchased Cooling (MJ/m2),0.0
+522,Energy - End Use Intensities,Interior Equipment,Chicago,Purchased Cooling (MJ/m2),0.0
+523,Energy - End Use Intensities,Interior Equipment,Boulder,Purchased Cooling (MJ/m2),0.0
+524,Energy - End Use Intensities,Interior Equipment,Minneapolis,Purchased Cooling (MJ/m2),0.0
+525,Energy - End Use Intensities,Interior Equipment,Helena,Purchased Cooling (MJ/m2),0.0
+526,Energy - End Use Intensities,Interior Equipment,Duluth,Purchased Cooling (MJ/m2),0.0
+527,Energy - End Use Intensities,Interior Equipment,Fairbanks,Purchased Cooling (MJ/m2),0.0
+528,Energy - End Use Intensities,Exterior Equipment,Miami,Purchased Cooling (MJ/m2),0.0
+529,Energy - End Use Intensities,Exterior Equipment,Houston,Purchased Cooling (MJ/m2),0.0
+530,Energy - End Use Intensities,Exterior Equipment,Phoenix,Purchased Cooling (MJ/m2),0.0
+531,Energy - End Use Intensities,Exterior Equipment,Atlanta,Purchased Cooling (MJ/m2),0.0
+532,Energy - End Use Intensities,Exterior Equipment,Los Angeles,Purchased Cooling (MJ/m2),0.0
+533,Energy - End Use Intensities,Exterior Equipment,Las Vegas,Purchased Cooling (MJ/m2),0.0
+534,Energy - End Use Intensities,Exterior Equipment,San Francisco,Purchased Cooling (MJ/m2),0.0
+535,Energy - End Use Intensities,Exterior Equipment,Baltimore,Purchased Cooling (MJ/m2),0.0
+536,Energy - End Use Intensities,Exterior Equipment,Albuquerque,Purchased Cooling (MJ/m2),0.0
+537,Energy - End Use Intensities,Exterior Equipment,Seattle,Purchased Cooling (MJ/m2),0.0
+538,Energy - End Use Intensities,Exterior Equipment,Chicago,Purchased Cooling (MJ/m2),0.0
+539,Energy - End Use Intensities,Exterior Equipment,Boulder,Purchased Cooling (MJ/m2),0.0
+540,Energy - End Use Intensities,Exterior Equipment,Minneapolis,Purchased Cooling (MJ/m2),0.0
+541,Energy - End Use Intensities,Exterior Equipment,Helena,Purchased Cooling (MJ/m2),0.0
+542,Energy - End Use Intensities,Exterior Equipment,Duluth,Purchased Cooling (MJ/m2),0.0
+543,Energy - End Use Intensities,Exterior Equipment,Fairbanks,Purchased Cooling (MJ/m2),0.0
+544,Energy - End Use Intensities,Fans,Miami,Purchased Cooling (MJ/m2),0.0
+545,Energy - End Use Intensities,Fans,Houston,Purchased Cooling (MJ/m2),0.0
+546,Energy - End Use Intensities,Fans,Phoenix,Purchased Cooling (MJ/m2),0.0
+547,Energy - End Use Intensities,Fans,Atlanta,Purchased Cooling (MJ/m2),0.0
+548,Energy - End Use Intensities,Fans,Los Angeles,Purchased Cooling (MJ/m2),0.0
+549,Energy - End Use Intensities,Fans,Las Vegas,Purchased Cooling (MJ/m2),0.0
+550,Energy - End Use Intensities,Fans,San Francisco,Purchased Cooling (MJ/m2),0.0
+551,Energy - End Use Intensities,Fans,Baltimore,Purchased Cooling (MJ/m2),0.0
+552,Energy - End Use Intensities,Fans,Albuquerque,Purchased Cooling (MJ/m2),0.0
+553,Energy - End Use Intensities,Fans,Seattle,Purchased Cooling (MJ/m2),0.0
+554,Energy - End Use Intensities,Fans,Chicago,Purchased Cooling (MJ/m2),0.0
+555,Energy - End Use Intensities,Fans,Boulder,Purchased Cooling (MJ/m2),0.0
+556,Energy - End Use Intensities,Fans,Minneapolis,Purchased Cooling (MJ/m2),0.0
+557,Energy - End Use Intensities,Fans,Helena,Purchased Cooling (MJ/m2),0.0
+558,Energy - End Use Intensities,Fans,Duluth,Purchased Cooling (MJ/m2),0.0
+559,Energy - End Use Intensities,Fans,Fairbanks,Purchased Cooling (MJ/m2),0.0
+560,Energy - End Use Intensities,Pumps,Miami,Purchased Cooling (MJ/m2),0.0
+561,Energy - End Use Intensities,Pumps,Houston,Purchased Cooling (MJ/m2),0.0
+562,Energy - End Use Intensities,Pumps,Phoenix,Purchased Cooling (MJ/m2),0.0
+563,Energy - End Use Intensities,Pumps,Atlanta,Purchased Cooling (MJ/m2),0.0
+564,Energy - End Use Intensities,Pumps,Los Angeles,Purchased Cooling (MJ/m2),0.0
+565,Energy - End Use Intensities,Pumps,Las Vegas,Purchased Cooling (MJ/m2),0.0
+566,Energy - End Use Intensities,Pumps,San Francisco,Purchased Cooling (MJ/m2),0.0
+567,Energy - End Use Intensities,Pumps,Baltimore,Purchased Cooling (MJ/m2),0.0
+568,Energy - End Use Intensities,Pumps,Albuquerque,Purchased Cooling (MJ/m2),0.0
+569,Energy - End Use Intensities,Pumps,Seattle,Purchased Cooling (MJ/m2),0.0
+570,Energy - End Use Intensities,Pumps,Chicago,Purchased Cooling (MJ/m2),0.0
+571,Energy - End Use Intensities,Pumps,Boulder,Purchased Cooling (MJ/m2),0.0
+572,Energy - End Use Intensities,Pumps,Minneapolis,Purchased Cooling (MJ/m2),0.0
+573,Energy - End Use Intensities,Pumps,Helena,Purchased Cooling (MJ/m2),0.0
+574,Energy - End Use Intensities,Pumps,Duluth,Purchased Cooling (MJ/m2),0.0
+575,Energy - End Use Intensities,Pumps,Fairbanks,Purchased Cooling (MJ/m2),0.0
+576,Energy - End Use Intensities,Heat Rejection,Miami,Purchased Cooling (MJ/m2),0.0
+577,Energy - End Use Intensities,Heat Rejection,Houston,Purchased Cooling (MJ/m2),0.0
+578,Energy - End Use Intensities,Heat Rejection,Phoenix,Purchased Cooling (MJ/m2),0.0
+579,Energy - End Use Intensities,Heat Rejection,Atlanta,Purchased Cooling (MJ/m2),0.0
+580,Energy - End Use Intensities,Heat Rejection,Los Angeles,Purchased Cooling (MJ/m2),0.0
+581,Energy - End Use Intensities,Heat Rejection,Las Vegas,Purchased Cooling (MJ/m2),0.0
+582,Energy - End Use Intensities,Heat Rejection,San Francisco,Purchased Cooling (MJ/m2),0.0
+583,Energy - End Use Intensities,Heat Rejection,Baltimore,Purchased Cooling (MJ/m2),0.0
+584,Energy - End Use Intensities,Heat Rejection,Albuquerque,Purchased Cooling (MJ/m2),0.0
+585,Energy - End Use Intensities,Heat Rejection,Seattle,Purchased Cooling (MJ/m2),0.0
+586,Energy - End Use Intensities,Heat Rejection,Chicago,Purchased Cooling (MJ/m2),0.0
+587,Energy - End Use Intensities,Heat Rejection,Boulder,Purchased Cooling (MJ/m2),0.0
+588,Energy - End Use Intensities,Heat Rejection,Minneapolis,Purchased Cooling (MJ/m2),0.0
+589,Energy - End Use Intensities,Heat Rejection,Helena,Purchased Cooling (MJ/m2),0.0
+590,Energy - End Use Intensities,Heat Rejection,Duluth,Purchased Cooling (MJ/m2),0.0
+591,Energy - End Use Intensities,Heat Rejection,Fairbanks,Purchased Cooling (MJ/m2),0.0
+592,Energy - End Use Intensities,Humidification,Miami,Purchased Cooling (MJ/m2),0.0
+593,Energy - End Use Intensities,Humidification,Houston,Purchased Cooling (MJ/m2),0.0
+594,Energy - End Use Intensities,Humidification,Phoenix,Purchased Cooling (MJ/m2),0.0
+595,Energy - End Use Intensities,Humidification,Atlanta,Purchased Cooling (MJ/m2),0.0
+596,Energy - End Use Intensities,Humidification,Los Angeles,Purchased Cooling (MJ/m2),0.0
+597,Energy - End Use Intensities,Humidification,Las Vegas,Purchased Cooling (MJ/m2),0.0
+598,Energy - End Use Intensities,Humidification,San Francisco,Purchased Cooling (MJ/m2),0.0
+599,Energy - End Use Intensities,Humidification,Baltimore,Purchased Cooling (MJ/m2),0.0
+600,Energy - End Use Intensities,Humidification,Albuquerque,Purchased Cooling (MJ/m2),0.0
+601,Energy - End Use Intensities,Humidification,Seattle,Purchased Cooling (MJ/m2),0.0
+602,Energy - End Use Intensities,Humidification,Chicago,Purchased Cooling (MJ/m2),0.0
+603,Energy - End Use Intensities,Humidification,Boulder,Purchased Cooling (MJ/m2),0.0
+604,Energy - End Use Intensities,Humidification,Minneapolis,Purchased Cooling (MJ/m2),0.0
+605,Energy - End Use Intensities,Humidification,Helena,Purchased Cooling (MJ/m2),0.0
+606,Energy - End Use Intensities,Humidification,Duluth,Purchased Cooling (MJ/m2),0.0
+607,Energy - End Use Intensities,Humidification,Fairbanks,Purchased Cooling (MJ/m2),0.0
+608,Energy - End Use Intensities,Heat Recovery,Miami,Purchased Cooling (MJ/m2),0.0
+609,Energy - End Use Intensities,Heat Recovery,Houston,Purchased Cooling (MJ/m2),0.0
+610,Energy - End Use Intensities,Heat Recovery,Phoenix,Purchased Cooling (MJ/m2),0.0
+611,Energy - End Use Intensities,Heat Recovery,Atlanta,Purchased Cooling (MJ/m2),0.0
+612,Energy - End Use Intensities,Heat Recovery,Los Angeles,Purchased Cooling (MJ/m2),0.0
+613,Energy - End Use Intensities,Heat Recovery,Las Vegas,Purchased Cooling (MJ/m2),0.0
+614,Energy - End Use Intensities,Heat Recovery,San Francisco,Purchased Cooling (MJ/m2),0.0
+615,Energy - End Use Intensities,Heat Recovery,Baltimore,Purchased Cooling (MJ/m2),0.0
+616,Energy - End Use Intensities,Heat Recovery,Albuquerque,Purchased Cooling (MJ/m2),0.0
+617,Energy - End Use Intensities,Heat Recovery,Seattle,Purchased Cooling (MJ/m2),0.0
+618,Energy - End Use Intensities,Heat Recovery,Chicago,Purchased Cooling (MJ/m2),0.0
+619,Energy - End Use Intensities,Heat Recovery,Boulder,Purchased Cooling (MJ/m2),0.0
+620,Energy - End Use Intensities,Heat Recovery,Minneapolis,Purchased Cooling (MJ/m2),0.0
+621,Energy - End Use Intensities,Heat Recovery,Helena,Purchased Cooling (MJ/m2),0.0
+622,Energy - End Use Intensities,Heat Recovery,Duluth,Purchased Cooling (MJ/m2),0.0
+623,Energy - End Use Intensities,Heat Recovery,Fairbanks,Purchased Cooling (MJ/m2),0.0
+624,Energy - End Use Intensities,Water Systems,Miami,Purchased Cooling (MJ/m2),0.0
+625,Energy - End Use Intensities,Water Systems,Houston,Purchased Cooling (MJ/m2),0.0
+626,Energy - End Use Intensities,Water Systems,Phoenix,Purchased Cooling (MJ/m2),0.0
+627,Energy - End Use Intensities,Water Systems,Atlanta,Purchased Cooling (MJ/m2),0.0
+628,Energy - End Use Intensities,Water Systems,Los Angeles,Purchased Cooling (MJ/m2),0.0
+629,Energy - End Use Intensities,Water Systems,Las Vegas,Purchased Cooling (MJ/m2),0.0
+630,Energy - End Use Intensities,Water Systems,San Francisco,Purchased Cooling (MJ/m2),0.0
+631,Energy - End Use Intensities,Water Systems,Baltimore,Purchased Cooling (MJ/m2),0.0
+632,Energy - End Use Intensities,Water Systems,Albuquerque,Purchased Cooling (MJ/m2),0.0
+633,Energy - End Use Intensities,Water Systems,Seattle,Purchased Cooling (MJ/m2),0.0
+634,Energy - End Use Intensities,Water Systems,Chicago,Purchased Cooling (MJ/m2),0.0
+635,Energy - End Use Intensities,Water Systems,Boulder,Purchased Cooling (MJ/m2),0.0
+636,Energy - End Use Intensities,Water Systems,Minneapolis,Purchased Cooling (MJ/m2),0.0
+637,Energy - End Use Intensities,Water Systems,Helena,Purchased Cooling (MJ/m2),0.0
+638,Energy - End Use Intensities,Water Systems,Duluth,Purchased Cooling (MJ/m2),0.0
+639,Energy - End Use Intensities,Water Systems,Fairbanks,Purchased Cooling (MJ/m2),0.0
+640,Energy - End Use Intensities,Refrigeration,Miami,Purchased Cooling (MJ/m2),0.0
+641,Energy - End Use Intensities,Refrigeration,Houston,Purchased Cooling (MJ/m2),0.0
+642,Energy - End Use Intensities,Refrigeration,Phoenix,Purchased Cooling (MJ/m2),0.0
+643,Energy - End Use Intensities,Refrigeration,Atlanta,Purchased Cooling (MJ/m2),0.0
+644,Energy - End Use Intensities,Refrigeration,Los Angeles,Purchased Cooling (MJ/m2),0.0
+645,Energy - End Use Intensities,Refrigeration,Las Vegas,Purchased Cooling (MJ/m2),0.0
+646,Energy - End Use Intensities,Refrigeration,San Francisco,Purchased Cooling (MJ/m2),0.0
+647,Energy - End Use Intensities,Refrigeration,Baltimore,Purchased Cooling (MJ/m2),0.0
+648,Energy - End Use Intensities,Refrigeration,Albuquerque,Purchased Cooling (MJ/m2),0.0
+649,Energy - End Use Intensities,Refrigeration,Seattle,Purchased Cooling (MJ/m2),0.0
+650,Energy - End Use Intensities,Refrigeration,Chicago,Purchased Cooling (MJ/m2),0.0
+651,Energy - End Use Intensities,Refrigeration,Boulder,Purchased Cooling (MJ/m2),0.0
+652,Energy - End Use Intensities,Refrigeration,Minneapolis,Purchased Cooling (MJ/m2),0.0
+653,Energy - End Use Intensities,Refrigeration,Helena,Purchased Cooling (MJ/m2),0.0
+654,Energy - End Use Intensities,Refrigeration,Duluth,Purchased Cooling (MJ/m2),0.0
+655,Energy - End Use Intensities,Refrigeration,Fairbanks,Purchased Cooling (MJ/m2),0.0
+656,Energy - End Use Intensities,Generators,Miami,Purchased Cooling (MJ/m2),0.0
+657,Energy - End Use Intensities,Generators,Houston,Purchased Cooling (MJ/m2),0.0
+658,Energy - End Use Intensities,Generators,Phoenix,Purchased Cooling (MJ/m2),0.0
+659,Energy - End Use Intensities,Generators,Atlanta,Purchased Cooling (MJ/m2),0.0
+660,Energy - End Use Intensities,Generators,Los Angeles,Purchased Cooling (MJ/m2),0.0
+661,Energy - End Use Intensities,Generators,Las Vegas,Purchased Cooling (MJ/m2),0.0
+662,Energy - End Use Intensities,Generators,San Francisco,Purchased Cooling (MJ/m2),0.0
+663,Energy - End Use Intensities,Generators,Baltimore,Purchased Cooling (MJ/m2),0.0
+664,Energy - End Use Intensities,Generators,Albuquerque,Purchased Cooling (MJ/m2),0.0
+665,Energy - End Use Intensities,Generators,Seattle,Purchased Cooling (MJ/m2),0.0
+666,Energy - End Use Intensities,Generators,Chicago,Purchased Cooling (MJ/m2),0.0
+667,Energy - End Use Intensities,Generators,Boulder,Purchased Cooling (MJ/m2),0.0
+668,Energy - End Use Intensities,Generators,Minneapolis,Purchased Cooling (MJ/m2),0.0
+669,Energy - End Use Intensities,Generators,Helena,Purchased Cooling (MJ/m2),0.0
+670,Energy - End Use Intensities,Generators,Duluth,Purchased Cooling (MJ/m2),0.0
+671,Energy - End Use Intensities,Generators,Fairbanks,Purchased Cooling (MJ/m2),0.0
+672,Energy - End Use Intensities,Heating,Miami,Purchased Heating (MJ/m2),0.0
+673,Energy - End Use Intensities,Heating,Houston,Purchased Heating (MJ/m2),0.0
+674,Energy - End Use Intensities,Heating,Phoenix,Purchased Heating (MJ/m2),0.0
+675,Energy - End Use Intensities,Heating,Atlanta,Purchased Heating (MJ/m2),0.0
+676,Energy - End Use Intensities,Heating,Los Angeles,Purchased Heating (MJ/m2),0.0
+677,Energy - End Use Intensities,Heating,Las Vegas,Purchased Heating (MJ/m2),0.0
+678,Energy - End Use Intensities,Heating,San Francisco,Purchased Heating (MJ/m2),0.0
+679,Energy - End Use Intensities,Heating,Baltimore,Purchased Heating (MJ/m2),0.0
+680,Energy - End Use Intensities,Heating,Albuquerque,Purchased Heating (MJ/m2),0.0
+681,Energy - End Use Intensities,Heating,Seattle,Purchased Heating (MJ/m2),0.0
+682,Energy - End Use Intensities,Heating,Chicago,Purchased Heating (MJ/m2),0.0
+683,Energy - End Use Intensities,Heating,Boulder,Purchased Heating (MJ/m2),0.0
+684,Energy - End Use Intensities,Heating,Minneapolis,Purchased Heating (MJ/m2),0.0
+685,Energy - End Use Intensities,Heating,Helena,Purchased Heating (MJ/m2),0.0
+686,Energy - End Use Intensities,Heating,Duluth,Purchased Heating (MJ/m2),0.0
+687,Energy - End Use Intensities,Heating,Fairbanks,Purchased Heating (MJ/m2),0.0
+688,Energy - End Use Intensities,Cooling,Miami,Purchased Heating (MJ/m2),0.0
+689,Energy - End Use Intensities,Cooling,Houston,Purchased Heating (MJ/m2),0.0
+690,Energy - End Use Intensities,Cooling,Phoenix,Purchased Heating (MJ/m2),0.0
+691,Energy - End Use Intensities,Cooling,Atlanta,Purchased Heating (MJ/m2),0.0
+692,Energy - End Use Intensities,Cooling,Los Angeles,Purchased Heating (MJ/m2),0.0
+693,Energy - End Use Intensities,Cooling,Las Vegas,Purchased Heating (MJ/m2),0.0
+694,Energy - End Use Intensities,Cooling,San Francisco,Purchased Heating (MJ/m2),0.0
+695,Energy - End Use Intensities,Cooling,Baltimore,Purchased Heating (MJ/m2),0.0
+696,Energy - End Use Intensities,Cooling,Albuquerque,Purchased Heating (MJ/m2),0.0
+697,Energy - End Use Intensities,Cooling,Seattle,Purchased Heating (MJ/m2),0.0
+698,Energy - End Use Intensities,Cooling,Chicago,Purchased Heating (MJ/m2),0.0
+699,Energy - End Use Intensities,Cooling,Boulder,Purchased Heating (MJ/m2),0.0
+700,Energy - End Use Intensities,Cooling,Minneapolis,Purchased Heating (MJ/m2),0.0
+701,Energy - End Use Intensities,Cooling,Helena,Purchased Heating (MJ/m2),0.0
+702,Energy - End Use Intensities,Cooling,Duluth,Purchased Heating (MJ/m2),0.0
+703,Energy - End Use Intensities,Cooling,Fairbanks,Purchased Heating (MJ/m2),0.0
+704,Energy - End Use Intensities,Interior Lighting,Miami,Purchased Heating (MJ/m2),0.0
+705,Energy - End Use Intensities,Interior Lighting,Houston,Purchased Heating (MJ/m2),0.0
+706,Energy - End Use Intensities,Interior Lighting,Phoenix,Purchased Heating (MJ/m2),0.0
+707,Energy - End Use Intensities,Interior Lighting,Atlanta,Purchased Heating (MJ/m2),0.0
+708,Energy - End Use Intensities,Interior Lighting,Los Angeles,Purchased Heating (MJ/m2),0.0
+709,Energy - End Use Intensities,Interior Lighting,Las Vegas,Purchased Heating (MJ/m2),0.0
+710,Energy - End Use Intensities,Interior Lighting,San Francisco,Purchased Heating (MJ/m2),0.0
+711,Energy - End Use Intensities,Interior Lighting,Baltimore,Purchased Heating (MJ/m2),0.0
+712,Energy - End Use Intensities,Interior Lighting,Albuquerque,Purchased Heating (MJ/m2),0.0
+713,Energy - End Use Intensities,Interior Lighting,Seattle,Purchased Heating (MJ/m2),0.0
+714,Energy - End Use Intensities,Interior Lighting,Chicago,Purchased Heating (MJ/m2),0.0
+715,Energy - End Use Intensities,Interior Lighting,Boulder,Purchased Heating (MJ/m2),0.0
+716,Energy - End Use Intensities,Interior Lighting,Minneapolis,Purchased Heating (MJ/m2),0.0
+717,Energy - End Use Intensities,Interior Lighting,Helena,Purchased Heating (MJ/m2),0.0
+718,Energy - End Use Intensities,Interior Lighting,Duluth,Purchased Heating (MJ/m2),0.0
+719,Energy - End Use Intensities,Interior Lighting,Fairbanks,Purchased Heating (MJ/m2),0.0
+720,Energy - End Use Intensities,Exterior Lighting,Miami,Purchased Heating (MJ/m2),0.0
+721,Energy - End Use Intensities,Exterior Lighting,Houston,Purchased Heating (MJ/m2),0.0
+722,Energy - End Use Intensities,Exterior Lighting,Phoenix,Purchased Heating (MJ/m2),0.0
+723,Energy - End Use Intensities,Exterior Lighting,Atlanta,Purchased Heating (MJ/m2),0.0
+724,Energy - End Use Intensities,Exterior Lighting,Los Angeles,Purchased Heating (MJ/m2),0.0
+725,Energy - End Use Intensities,Exterior Lighting,Las Vegas,Purchased Heating (MJ/m2),0.0
+726,Energy - End Use Intensities,Exterior Lighting,San Francisco,Purchased Heating (MJ/m2),0.0
+727,Energy - End Use Intensities,Exterior Lighting,Baltimore,Purchased Heating (MJ/m2),0.0
+728,Energy - End Use Intensities,Exterior Lighting,Albuquerque,Purchased Heating (MJ/m2),0.0
+729,Energy - End Use Intensities,Exterior Lighting,Seattle,Purchased Heating (MJ/m2),0.0
+730,Energy - End Use Intensities,Exterior Lighting,Chicago,Purchased Heating (MJ/m2),0.0
+731,Energy - End Use Intensities,Exterior Lighting,Boulder,Purchased Heating (MJ/m2),0.0
+732,Energy - End Use Intensities,Exterior Lighting,Minneapolis,Purchased Heating (MJ/m2),0.0
+733,Energy - End Use Intensities,Exterior Lighting,Helena,Purchased Heating (MJ/m2),0.0
+734,Energy - End Use Intensities,Exterior Lighting,Duluth,Purchased Heating (MJ/m2),0.0
+735,Energy - End Use Intensities,Exterior Lighting,Fairbanks,Purchased Heating (MJ/m2),0.0
+736,Energy - End Use Intensities,Interior Equipment,Miami,Purchased Heating (MJ/m2),0.0
+737,Energy - End Use Intensities,Interior Equipment,Houston,Purchased Heating (MJ/m2),0.0
+738,Energy - End Use Intensities,Interior Equipment,Phoenix,Purchased Heating (MJ/m2),0.0
+739,Energy - End Use Intensities,Interior Equipment,Atlanta,Purchased Heating (MJ/m2),0.0
+740,Energy - End Use Intensities,Interior Equipment,Los Angeles,Purchased Heating (MJ/m2),0.0
+741,Energy - End Use Intensities,Interior Equipment,Las Vegas,Purchased Heating (MJ/m2),0.0
+742,Energy - End Use Intensities,Interior Equipment,San Francisco,Purchased Heating (MJ/m2),0.0
+743,Energy - End Use Intensities,Interior Equipment,Baltimore,Purchased Heating (MJ/m2),0.0
+744,Energy - End Use Intensities,Interior Equipment,Albuquerque,Purchased Heating (MJ/m2),0.0
+745,Energy - End Use Intensities,Interior Equipment,Seattle,Purchased Heating (MJ/m2),0.0
+746,Energy - End Use Intensities,Interior Equipment,Chicago,Purchased Heating (MJ/m2),0.0
+747,Energy - End Use Intensities,Interior Equipment,Boulder,Purchased Heating (MJ/m2),0.0
+748,Energy - End Use Intensities,Interior Equipment,Minneapolis,Purchased Heating (MJ/m2),0.0
+749,Energy - End Use Intensities,Interior Equipment,Helena,Purchased Heating (MJ/m2),0.0
+750,Energy - End Use Intensities,Interior Equipment,Duluth,Purchased Heating (MJ/m2),0.0
+751,Energy - End Use Intensities,Interior Equipment,Fairbanks,Purchased Heating (MJ/m2),0.0
+752,Energy - End Use Intensities,Exterior Equipment,Miami,Purchased Heating (MJ/m2),0.0
+753,Energy - End Use Intensities,Exterior Equipment,Houston,Purchased Heating (MJ/m2),0.0
+754,Energy - End Use Intensities,Exterior Equipment,Phoenix,Purchased Heating (MJ/m2),0.0
+755,Energy - End Use Intensities,Exterior Equipment,Atlanta,Purchased Heating (MJ/m2),0.0
+756,Energy - End Use Intensities,Exterior Equipment,Los Angeles,Purchased Heating (MJ/m2),0.0
+757,Energy - End Use Intensities,Exterior Equipment,Las Vegas,Purchased Heating (MJ/m2),0.0
+758,Energy - End Use Intensities,Exterior Equipment,San Francisco,Purchased Heating (MJ/m2),0.0
+759,Energy - End Use Intensities,Exterior Equipment,Baltimore,Purchased Heating (MJ/m2),0.0
+760,Energy - End Use Intensities,Exterior Equipment,Albuquerque,Purchased Heating (MJ/m2),0.0
+761,Energy - End Use Intensities,Exterior Equipment,Seattle,Purchased Heating (MJ/m2),0.0
+762,Energy - End Use Intensities,Exterior Equipment,Chicago,Purchased Heating (MJ/m2),0.0
+763,Energy - End Use Intensities,Exterior Equipment,Boulder,Purchased Heating (MJ/m2),0.0
+764,Energy - End Use Intensities,Exterior Equipment,Minneapolis,Purchased Heating (MJ/m2),0.0
+765,Energy - End Use Intensities,Exterior Equipment,Helena,Purchased Heating (MJ/m2),0.0
+766,Energy - End Use Intensities,Exterior Equipment,Duluth,Purchased Heating (MJ/m2),0.0
+767,Energy - End Use Intensities,Exterior Equipment,Fairbanks,Purchased Heating (MJ/m2),0.0
+768,Energy - End Use Intensities,Fans,Miami,Purchased Heating (MJ/m2),0.0
+769,Energy - End Use Intensities,Fans,Houston,Purchased Heating (MJ/m2),0.0
+770,Energy - End Use Intensities,Fans,Phoenix,Purchased Heating (MJ/m2),0.0
+771,Energy - End Use Intensities,Fans,Atlanta,Purchased Heating (MJ/m2),0.0
+772,Energy - End Use Intensities,Fans,Los Angeles,Purchased Heating (MJ/m2),0.0
+773,Energy - End Use Intensities,Fans,Las Vegas,Purchased Heating (MJ/m2),0.0
+774,Energy - End Use Intensities,Fans,San Francisco,Purchased Heating (MJ/m2),0.0
+775,Energy - End Use Intensities,Fans,Baltimore,Purchased Heating (MJ/m2),0.0
+776,Energy - End Use Intensities,Fans,Albuquerque,Purchased Heating (MJ/m2),0.0
+777,Energy - End Use Intensities,Fans,Seattle,Purchased Heating (MJ/m2),0.0
+778,Energy - End Use Intensities,Fans,Chicago,Purchased Heating (MJ/m2),0.0
+779,Energy - End Use Intensities,Fans,Boulder,Purchased Heating (MJ/m2),0.0
+780,Energy - End Use Intensities,Fans,Minneapolis,Purchased Heating (MJ/m2),0.0
+781,Energy - End Use Intensities,Fans,Helena,Purchased Heating (MJ/m2),0.0
+782,Energy - End Use Intensities,Fans,Duluth,Purchased Heating (MJ/m2),0.0
+783,Energy - End Use Intensities,Fans,Fairbanks,Purchased Heating (MJ/m2),0.0
+784,Energy - End Use Intensities,Pumps,Miami,Purchased Heating (MJ/m2),0.0
+785,Energy - End Use Intensities,Pumps,Houston,Purchased Heating (MJ/m2),0.0
+786,Energy - End Use Intensities,Pumps,Phoenix,Purchased Heating (MJ/m2),0.0
+787,Energy - End Use Intensities,Pumps,Atlanta,Purchased Heating (MJ/m2),0.0
+788,Energy - End Use Intensities,Pumps,Los Angeles,Purchased Heating (MJ/m2),0.0
+789,Energy - End Use Intensities,Pumps,Las Vegas,Purchased Heating (MJ/m2),0.0
+790,Energy - End Use Intensities,Pumps,San Francisco,Purchased Heating (MJ/m2),0.0
+791,Energy - End Use Intensities,Pumps,Baltimore,Purchased Heating (MJ/m2),0.0
+792,Energy - End Use Intensities,Pumps,Albuquerque,Purchased Heating (MJ/m2),0.0
+793,Energy - End Use Intensities,Pumps,Seattle,Purchased Heating (MJ/m2),0.0
+794,Energy - End Use Intensities,Pumps,Chicago,Purchased Heating (MJ/m2),0.0
+795,Energy - End Use Intensities,Pumps,Boulder,Purchased Heating (MJ/m2),0.0
+796,Energy - End Use Intensities,Pumps,Minneapolis,Purchased Heating (MJ/m2),0.0
+797,Energy - End Use Intensities,Pumps,Helena,Purchased Heating (MJ/m2),0.0
+798,Energy - End Use Intensities,Pumps,Duluth,Purchased Heating (MJ/m2),0.0
+799,Energy - End Use Intensities,Pumps,Fairbanks,Purchased Heating (MJ/m2),0.0
+800,Energy - End Use Intensities,Heat Rejection,Miami,Purchased Heating (MJ/m2),0.0
+801,Energy - End Use Intensities,Heat Rejection,Houston,Purchased Heating (MJ/m2),0.0
+802,Energy - End Use Intensities,Heat Rejection,Phoenix,Purchased Heating (MJ/m2),0.0
+803,Energy - End Use Intensities,Heat Rejection,Atlanta,Purchased Heating (MJ/m2),0.0
+804,Energy - End Use Intensities,Heat Rejection,Los Angeles,Purchased Heating (MJ/m2),0.0
+805,Energy - End Use Intensities,Heat Rejection,Las Vegas,Purchased Heating (MJ/m2),0.0
+806,Energy - End Use Intensities,Heat Rejection,San Francisco,Purchased Heating (MJ/m2),0.0
+807,Energy - End Use Intensities,Heat Rejection,Baltimore,Purchased Heating (MJ/m2),0.0
+808,Energy - End Use Intensities,Heat Rejection,Albuquerque,Purchased Heating (MJ/m2),0.0
+809,Energy - End Use Intensities,Heat Rejection,Seattle,Purchased Heating (MJ/m2),0.0
+810,Energy - End Use Intensities,Heat Rejection,Chicago,Purchased Heating (MJ/m2),0.0
+811,Energy - End Use Intensities,Heat Rejection,Boulder,Purchased Heating (MJ/m2),0.0
+812,Energy - End Use Intensities,Heat Rejection,Minneapolis,Purchased Heating (MJ/m2),0.0
+813,Energy - End Use Intensities,Heat Rejection,Helena,Purchased Heating (MJ/m2),0.0
+814,Energy - End Use Intensities,Heat Rejection,Duluth,Purchased Heating (MJ/m2),0.0
+815,Energy - End Use Intensities,Heat Rejection,Fairbanks,Purchased Heating (MJ/m2),0.0
+816,Energy - End Use Intensities,Humidification,Miami,Purchased Heating (MJ/m2),0.0
+817,Energy - End Use Intensities,Humidification,Houston,Purchased Heating (MJ/m2),0.0
+818,Energy - End Use Intensities,Humidification,Phoenix,Purchased Heating (MJ/m2),0.0
+819,Energy - End Use Intensities,Humidification,Atlanta,Purchased Heating (MJ/m2),0.0
+820,Energy - End Use Intensities,Humidification,Los Angeles,Purchased Heating (MJ/m2),0.0
+821,Energy - End Use Intensities,Humidification,Las Vegas,Purchased Heating (MJ/m2),0.0
+822,Energy - End Use Intensities,Humidification,San Francisco,Purchased Heating (MJ/m2),0.0
+823,Energy - End Use Intensities,Humidification,Baltimore,Purchased Heating (MJ/m2),0.0
+824,Energy - End Use Intensities,Humidification,Albuquerque,Purchased Heating (MJ/m2),0.0
+825,Energy - End Use Intensities,Humidification,Seattle,Purchased Heating (MJ/m2),0.0
+826,Energy - End Use Intensities,Humidification,Chicago,Purchased Heating (MJ/m2),0.0
+827,Energy - End Use Intensities,Humidification,Boulder,Purchased Heating (MJ/m2),0.0
+828,Energy - End Use Intensities,Humidification,Minneapolis,Purchased Heating (MJ/m2),0.0
+829,Energy - End Use Intensities,Humidification,Helena,Purchased Heating (MJ/m2),0.0
+830,Energy - End Use Intensities,Humidification,Duluth,Purchased Heating (MJ/m2),0.0
+831,Energy - End Use Intensities,Humidification,Fairbanks,Purchased Heating (MJ/m2),0.0
+832,Energy - End Use Intensities,Heat Recovery,Miami,Purchased Heating (MJ/m2),0.0
+833,Energy - End Use Intensities,Heat Recovery,Houston,Purchased Heating (MJ/m2),0.0
+834,Energy - End Use Intensities,Heat Recovery,Phoenix,Purchased Heating (MJ/m2),0.0
+835,Energy - End Use Intensities,Heat Recovery,Atlanta,Purchased Heating (MJ/m2),0.0
+836,Energy - End Use Intensities,Heat Recovery,Los Angeles,Purchased Heating (MJ/m2),0.0
+837,Energy - End Use Intensities,Heat Recovery,Las Vegas,Purchased Heating (MJ/m2),0.0
+838,Energy - End Use Intensities,Heat Recovery,San Francisco,Purchased Heating (MJ/m2),0.0
+839,Energy - End Use Intensities,Heat Recovery,Baltimore,Purchased Heating (MJ/m2),0.0
+840,Energy - End Use Intensities,Heat Recovery,Albuquerque,Purchased Heating (MJ/m2),0.0
+841,Energy - End Use Intensities,Heat Recovery,Seattle,Purchased Heating (MJ/m2),0.0
+842,Energy - End Use Intensities,Heat Recovery,Chicago,Purchased Heating (MJ/m2),0.0
+843,Energy - End Use Intensities,Heat Recovery,Boulder,Purchased Heating (MJ/m2),0.0
+844,Energy - End Use Intensities,Heat Recovery,Minneapolis,Purchased Heating (MJ/m2),0.0
+845,Energy - End Use Intensities,Heat Recovery,Helena,Purchased Heating (MJ/m2),0.0
+846,Energy - End Use Intensities,Heat Recovery,Duluth,Purchased Heating (MJ/m2),0.0
+847,Energy - End Use Intensities,Heat Recovery,Fairbanks,Purchased Heating (MJ/m2),0.0
+848,Energy - End Use Intensities,Water Systems,Miami,Purchased Heating (MJ/m2),0.0
+849,Energy - End Use Intensities,Water Systems,Houston,Purchased Heating (MJ/m2),0.0
+850,Energy - End Use Intensities,Water Systems,Phoenix,Purchased Heating (MJ/m2),0.0
+851,Energy - End Use Intensities,Water Systems,Atlanta,Purchased Heating (MJ/m2),0.0
+852,Energy - End Use Intensities,Water Systems,Los Angeles,Purchased Heating (MJ/m2),0.0
+853,Energy - End Use Intensities,Water Systems,Las Vegas,Purchased Heating (MJ/m2),0.0
+854,Energy - End Use Intensities,Water Systems,San Francisco,Purchased Heating (MJ/m2),0.0
+855,Energy - End Use Intensities,Water Systems,Baltimore,Purchased Heating (MJ/m2),0.0
+856,Energy - End Use Intensities,Water Systems,Albuquerque,Purchased Heating (MJ/m2),0.0
+857,Energy - End Use Intensities,Water Systems,Seattle,Purchased Heating (MJ/m2),0.0
+858,Energy - End Use Intensities,Water Systems,Chicago,Purchased Heating (MJ/m2),0.0
+859,Energy - End Use Intensities,Water Systems,Boulder,Purchased Heating (MJ/m2),0.0
+860,Energy - End Use Intensities,Water Systems,Minneapolis,Purchased Heating (MJ/m2),0.0
+861,Energy - End Use Intensities,Water Systems,Helena,Purchased Heating (MJ/m2),0.0
+862,Energy - End Use Intensities,Water Systems,Duluth,Purchased Heating (MJ/m2),0.0
+863,Energy - End Use Intensities,Water Systems,Fairbanks,Purchased Heating (MJ/m2),0.0
+864,Energy - End Use Intensities,Refrigeration,Miami,Purchased Heating (MJ/m2),0.0
+865,Energy - End Use Intensities,Refrigeration,Houston,Purchased Heating (MJ/m2),0.0
+866,Energy - End Use Intensities,Refrigeration,Phoenix,Purchased Heating (MJ/m2),0.0
+867,Energy - End Use Intensities,Refrigeration,Atlanta,Purchased Heating (MJ/m2),0.0
+868,Energy - End Use Intensities,Refrigeration,Los Angeles,Purchased Heating (MJ/m2),0.0
+869,Energy - End Use Intensities,Refrigeration,Las Vegas,Purchased Heating (MJ/m2),0.0
+870,Energy - End Use Intensities,Refrigeration,San Francisco,Purchased Heating (MJ/m2),0.0
+871,Energy - End Use Intensities,Refrigeration,Baltimore,Purchased Heating (MJ/m2),0.0
+872,Energy - End Use Intensities,Refrigeration,Albuquerque,Purchased Heating (MJ/m2),0.0
+873,Energy - End Use Intensities,Refrigeration,Seattle,Purchased Heating (MJ/m2),0.0
+874,Energy - End Use Intensities,Refrigeration,Chicago,Purchased Heating (MJ/m2),0.0
+875,Energy - End Use Intensities,Refrigeration,Boulder,Purchased Heating (MJ/m2),0.0
+876,Energy - End Use Intensities,Refrigeration,Minneapolis,Purchased Heating (MJ/m2),0.0
+877,Energy - End Use Intensities,Refrigeration,Helena,Purchased Heating (MJ/m2),0.0
+878,Energy - End Use Intensities,Refrigeration,Duluth,Purchased Heating (MJ/m2),0.0
+879,Energy - End Use Intensities,Refrigeration,Fairbanks,Purchased Heating (MJ/m2),0.0
+880,Energy - End Use Intensities,Generators,Miami,Purchased Heating (MJ/m2),0.0
+881,Energy - End Use Intensities,Generators,Houston,Purchased Heating (MJ/m2),0.0
+882,Energy - End Use Intensities,Generators,Phoenix,Purchased Heating (MJ/m2),0.0
+883,Energy - End Use Intensities,Generators,Atlanta,Purchased Heating (MJ/m2),0.0
+884,Energy - End Use Intensities,Generators,Los Angeles,Purchased Heating (MJ/m2),0.0
+885,Energy - End Use Intensities,Generators,Las Vegas,Purchased Heating (MJ/m2),0.0
+886,Energy - End Use Intensities,Generators,San Francisco,Purchased Heating (MJ/m2),0.0
+887,Energy - End Use Intensities,Generators,Baltimore,Purchased Heating (MJ/m2),0.0
+888,Energy - End Use Intensities,Generators,Albuquerque,Purchased Heating (MJ/m2),0.0
+889,Energy - End Use Intensities,Generators,Seattle,Purchased Heating (MJ/m2),0.0
+890,Energy - End Use Intensities,Generators,Chicago,Purchased Heating (MJ/m2),0.0
+891,Energy - End Use Intensities,Generators,Boulder,Purchased Heating (MJ/m2),0.0
+892,Energy - End Use Intensities,Generators,Minneapolis,Purchased Heating (MJ/m2),0.0
+893,Energy - End Use Intensities,Generators,Helena,Purchased Heating (MJ/m2),0.0
+894,Energy - End Use Intensities,Generators,Duluth,Purchased Heating (MJ/m2),0.0
+895,Energy - End Use Intensities,Generators,Fairbanks,Purchased Heating (MJ/m2),0.0
+896,Energy - End Use Intensities,Total End Uses,Miami,Purchased Heating (MJ/m2),0.0
+897,Energy - End Use Intensities,Total End Uses,Houston,Purchased Heating (MJ/m2),0.0
+898,Energy - End Use Intensities,Total End Uses,Phoenix,Purchased Heating (MJ/m2),0.0
+899,Energy - End Use Intensities,Total End Uses,Atlanta,Purchased Heating (MJ/m2),0.0
+900,Energy - End Use Intensities,Total End Uses,Los Angeles,Purchased Heating (MJ/m2),0.0
+901,Energy - End Use Intensities,Total End Uses,Las Vegas,Purchased Heating (MJ/m2),0.0
+902,Energy - End Use Intensities,Total End Uses,San Francisco,Purchased Heating (MJ/m2),0.0
+903,Energy - End Use Intensities,Total End Uses,Baltimore,Purchased Heating (MJ/m2),0.0
+904,Energy - End Use Intensities,Total End Uses,Albuquerque,Purchased Heating (MJ/m2),0.0
+905,Energy - End Use Intensities,Total End Uses,Seattle,Purchased Heating (MJ/m2),0.0
+906,Energy - End Use Intensities,Total End Uses,Chicago,Purchased Heating (MJ/m2),0.0
+907,Energy - End Use Intensities,Total End Uses,Boulder,Purchased Heating (MJ/m2),0.0
+908,Energy - End Use Intensities,Total End Uses,Minneapolis,Purchased Heating (MJ/m2),0.0
+909,Energy - End Use Intensities,Total End Uses,Helena,Purchased Heating (MJ/m2),0.0
+910,Energy - End Use Intensities,Total End Uses,Duluth,Purchased Heating (MJ/m2),0.0
+911,Energy - End Use Intensities,Total End Uses,Fairbanks,Purchased Heating (MJ/m2),0.0

@@ -1,0 +1,993 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix smdx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix eg: <http://example.org/> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Observation0_1_1 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6440282"^^xsd:decimal;
+	.
+_:Observation0_1_2 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6299156"^^xsd:decimal;
+	.
+_:Observation0_1_3 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6422347"^^xsd:decimal;
+	.
+_:Observation0_1_4 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6734460"^^xsd:decimal;
+	.
+_:Observation0_1_5 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5806917"^^xsd:decimal;
+	.
+_:Observation0_1_6 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5892721"^^xsd:decimal;
+	.
+_:Observation0_1_7 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6324120"^^xsd:decimal;
+	.
+_:Observation0_1_8 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6121802"^^xsd:decimal;
+	.
+_:Observation0_1_9 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5723705"^^xsd:decimal;
+	.
+_:Observation0_1_10 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5759107"^^xsd:decimal;
+	.
+_:Observation0_1_11 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5548671"^^xsd:decimal;
+	.
+_:Observation0_1_12 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5292804"^^xsd:decimal;
+	.
+_:Observation0_1_13 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5695266"^^xsd:decimal;
+	.
+_:Observation0_1_14 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5391218"^^xsd:decimal;
+	.
+_:Observation0_1_15 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "6074057"^^xsd:decimal;
+	.
+_:Observation0_1_16 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5957079"^^xsd:decimal;
+	.
+_:Observation0_1_17 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "4847782"^^xsd:decimal;
+	.
+_:Observation0_1_18 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5312305"^^xsd:decimal;
+	.
+_:Observation0_1_19 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5816290"^^xsd:decimal;
+	.
+_:Observation0_1_20 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5758416"^^xsd:decimal;
+	.
+_:Observation0_1_21 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5362899"^^xsd:decimal;
+	.
+_:Observation0_1_22 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5030429"^^xsd:decimal;
+	.
+_:Observation0_1_23 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "4636633"^^xsd:decimal;
+	.
+_:Observation0_1_24 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "4914393"^^xsd:decimal;
+	.
+_:Observation0_1_25 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5175989"^^xsd:decimal;
+	.
+_:Observation0_1_26 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5452153"^^xsd:decimal;
+	.
+_:Observation0_1_27 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5884661"^^xsd:decimal;
+	.
+_:Observation0_1_28 a qb:Observation;
+	eg:mode "Bus (CityLink, LocalLink, Express BusLink)";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "5538662"^^xsd:decimal;
+	.
+_:Observation0_2_1 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "1028092"^^xsd:decimal;
+	.
+_:Observation0_2_2 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "964545"^^xsd:decimal;
+	.
+_:Observation0_2_3 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "1009507"^^xsd:decimal;
+	.
+_:Observation0_2_4 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "1015678"^^xsd:decimal;
+	.
+_:Observation0_2_5 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "908282"^^xsd:decimal;
+	.
+_:Observation0_2_6 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "871504"^^xsd:decimal;
+	.
+_:Observation0_2_7 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "996233"^^xsd:decimal;
+	.
+_:Observation0_2_8 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "968386"^^xsd:decimal;
+	.
+_:Observation0_2_9 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "875358"^^xsd:decimal;
+	.
+_:Observation0_2_10 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "836314"^^xsd:decimal;
+	.
+_:Observation0_2_11 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "866137"^^xsd:decimal;
+	.
+_:Observation0_2_12 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "870592"^^xsd:decimal;
+	.
+_:Observation0_2_13 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "904330"^^xsd:decimal;
+	.
+_:Observation0_2_14 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "895282"^^xsd:decimal;
+	.
+_:Observation0_2_15 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "944782"^^xsd:decimal;
+	.
+_:Observation0_2_16 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "1022871"^^xsd:decimal;
+	.
+_:Observation0_2_17 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "914897"^^xsd:decimal;
+	.
+_:Observation0_2_18 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "936602"^^xsd:decimal;
+	.
+_:Observation0_2_19 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "909556"^^xsd:decimal;
+	.
+_:Observation0_2_20 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "901908"^^xsd:decimal;
+	.
+_:Observation0_2_21 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "778601"^^xsd:decimal;
+	.
+_:Observation0_2_22 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "734355"^^xsd:decimal;
+	.
+_:Observation0_2_23 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "694577"^^xsd:decimal;
+	.
+_:Observation0_2_24 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "204377"^^xsd:decimal;
+	.
+_:Observation0_2_25 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "447978"^^xsd:decimal;
+	.
+_:Observation0_2_26 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "727687"^^xsd:decimal;
+	.
+_:Observation0_2_27 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "767167"^^xsd:decimal;
+	.
+_:Observation0_2_28 a qb:Observation;
+	eg:mode "Metro SubwayLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "721058"^^xsd:decimal;
+	.
+_:Observation0_3_1 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "666577"^^xsd:decimal;
+	.
+_:Observation0_3_2 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "647986"^^xsd:decimal;
+	.
+_:Observation0_3_3 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "662804"^^xsd:decimal;
+	.
+_:Observation0_3_4 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "654986"^^xsd:decimal;
+	.
+_:Observation0_3_5 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "650423"^^xsd:decimal;
+	.
+_:Observation0_3_6 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "661647"^^xsd:decimal;
+	.
+_:Observation0_3_7 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "658055"^^xsd:decimal;
+	.
+_:Observation0_3_8 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "675857"^^xsd:decimal;
+	.
+_:Observation0_3_9 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "676745"^^xsd:decimal;
+	.
+_:Observation0_3_10 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "582466"^^xsd:decimal;
+	.
+_:Observation0_3_11 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "525856"^^xsd:decimal;
+	.
+_:Observation0_3_12 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "454084"^^xsd:decimal;
+	.
+_:Observation0_3_13 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "591136"^^xsd:decimal;
+	.
+_:Observation0_3_14 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "634600"^^xsd:decimal;
+	.
+_:Observation0_3_15 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "568433"^^xsd:decimal;
+	.
+_:Observation0_3_16 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "620794"^^xsd:decimal;
+	.
+_:Observation0_3_17 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "624860"^^xsd:decimal;
+	.
+_:Observation0_3_18 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "667295"^^xsd:decimal;
+	.
+_:Observation0_3_19 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "588925"^^xsd:decimal;
+	.
+_:Observation0_3_20 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "641895"^^xsd:decimal;
+	.
+_:Observation0_3_21 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "632311"^^xsd:decimal;
+	.
+_:Observation0_3_22 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "626998"^^xsd:decimal;
+	.
+_:Observation0_3_23 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "662704"^^xsd:decimal;
+	.
+_:Observation0_3_24 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "526424"^^xsd:decimal;
+	.
+_:Observation0_3_25 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "658669"^^xsd:decimal;
+	.
+_:Observation0_3_26 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "612892"^^xsd:decimal;
+	.
+_:Observation0_3_27 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "581097"^^xsd:decimal;
+	.
+_:Observation0_3_28 a qb:Observation;
+	eg:mode "Light RailLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "577236"^^xsd:decimal;
+	.
+_:Observation0_4_1 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "178906"^^xsd:decimal;
+	.
+_:Observation0_4_2 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "169991"^^xsd:decimal;
+	.
+_:Observation0_4_3 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "171191"^^xsd:decimal;
+	.
+_:Observation0_4_4 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "173178"^^xsd:decimal;
+	.
+_:Observation0_4_5 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "165927"^^xsd:decimal;
+	.
+_:Observation0_4_6 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "177244"^^xsd:decimal;
+	.
+_:Observation0_4_7 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "171202"^^xsd:decimal;
+	.
+_:Observation0_4_8 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "174434"^^xsd:decimal;
+	.
+_:Observation0_4_9 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "167419"^^xsd:decimal;
+	.
+_:Observation0_4_10 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "164991"^^xsd:decimal;
+	.
+_:Observation0_4_11 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "163499"^^xsd:decimal;
+	.
+_:Observation0_4_12 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "160100"^^xsd:decimal;
+	.
+_:Observation0_4_13 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "173528"^^xsd:decimal;
+	.
+_:Observation0_4_14 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "169708"^^xsd:decimal;
+	.
+_:Observation0_4_15 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "183018"^^xsd:decimal;
+	.
+_:Observation0_4_16 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "177206"^^xsd:decimal;
+	.
+_:Observation0_4_17 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "170762"^^xsd:decimal;
+	.
+_:Observation0_4_18 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "185288"^^xsd:decimal;
+	.
+_:Observation0_4_19 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "175042"^^xsd:decimal;
+	.
+_:Observation0_4_20 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "185705"^^xsd:decimal;
+	.
+_:Observation0_4_21 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "177645"^^xsd:decimal;
+	.
+_:Observation0_4_22 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "167104"^^xsd:decimal;
+	.
+_:Observation0_4_23 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "168009"^^xsd:decimal;
+	.
+_:Observation0_4_24 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "164850"^^xsd:decimal;
+	.
+_:Observation0_4_25 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "175164"^^xsd:decimal;
+	.
+_:Observation0_4_26 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "184368"^^xsd:decimal;
+	.
+_:Observation0_4_27 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "192651"^^xsd:decimal;
+	.
+_:Observation0_4_28 a qb:Observation;
+	eg:mode "MobilityLink";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "182654"^^xsd:decimal;
+	.
+_:Observation0_5_1 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "59662"^^xsd:decimal;
+	.
+_:Observation0_5_2 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "50548"^^xsd:decimal;
+	.
+_:Observation0_5_3 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "51266"^^xsd:decimal;
+	.
+_:Observation0_5_4 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "44611"^^xsd:decimal;
+	.
+_:Observation0_5_5 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "51393"^^xsd:decimal;
+	.
+_:Observation0_5_6 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "51012"^^xsd:decimal;
+	.
+_:Observation0_5_7 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "56768"^^xsd:decimal;
+	.
+_:Observation0_5_8 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "59638"^^xsd:decimal;
+	.
+_:Observation0_5_9 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "52280"^^xsd:decimal;
+	.
+_:Observation0_5_10 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "56498"^^xsd:decimal;
+	.
+_:Observation0_5_11 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "53585"^^xsd:decimal;
+	.
+_:Observation0_5_12 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "55401"^^xsd:decimal;
+	.
+_:Observation0_5_13 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "68915"^^xsd:decimal;
+	.
+_:Observation0_5_14 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "66742"^^xsd:decimal;
+	.
+_:Observation0_5_15 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "63333"^^xsd:decimal;
+	.
+_:Observation0_5_16 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "62082"^^xsd:decimal;
+	.
+_:Observation0_5_17 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "73294"^^xsd:decimal;
+	.
+_:Observation0_5_18 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "60634"^^xsd:decimal;
+	.
+_:Observation0_5_19 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "71009"^^xsd:decimal;
+	.
+_:Observation0_5_20 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "72741"^^xsd:decimal;
+	.
+_:Observation0_5_21 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "64499"^^xsd:decimal;
+	.
+_:Observation0_5_22 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "62034"^^xsd:decimal;
+	.
+_:Observation0_5_23 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "60690"^^xsd:decimal;
+	.
+_:Observation0_5_24 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "63032"^^xsd:decimal;
+	.
+_:Observation0_5_25 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "66460"^^xsd:decimal;
+	.
+_:Observation0_5_26 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "70957"^^xsd:decimal;
+	.
+_:Observation0_5_27 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "73572"^^xsd:decimal;
+	.
+_:Observation0_5_28 a qb:Observation;
+	eg:mode "Call-A-Ride";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "73468"^^xsd:decimal;
+	.
+_:Observation0_6_1 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "781850"^^xsd:decimal;
+	.
+_:Observation0_6_2 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "728099"^^xsd:decimal;
+	.
+_:Observation0_6_3 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "750777"^^xsd:decimal;
+	.
+_:Observation0_6_4 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "845341"^^xsd:decimal;
+	.
+_:Observation0_6_5 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "763579"^^xsd:decimal;
+	.
+_:Observation0_6_6 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "837985"^^xsd:decimal;
+	.
+_:Observation0_6_7 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "778089"^^xsd:decimal;
+	.
+_:Observation0_6_8 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "771480"^^xsd:decimal;
+	.
+_:Observation0_6_9 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "752999"^^xsd:decimal;
+	.
+_:Observation0_6_10 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "706714"^^xsd:decimal;
+	.
+_:Observation0_6_11 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "700501"^^xsd:decimal;
+	.
+_:Observation0_6_12 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "680674"^^xsd:decimal;
+	.
+_:Observation0_6_13 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "783088"^^xsd:decimal;
+	.
+_:Observation0_6_14 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "750220"^^xsd:decimal;
+	.
+_:Observation0_6_15 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "821839"^^xsd:decimal;
+	.
+_:Observation0_6_16 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "838214"^^xsd:decimal;
+	.
+_:Observation0_6_17 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "751044"^^xsd:decimal;
+	.
+_:Observation0_6_18 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "835373"^^xsd:decimal;
+	.
+_:Observation0_6_19 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "750690"^^xsd:decimal;
+	.
+_:Observation0_6_20 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "811309"^^xsd:decimal;
+	.
+_:Observation0_6_21 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "741477"^^xsd:decimal;
+	.
+_:Observation0_6_22 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "683732"^^xsd:decimal;
+	.
+_:Observation0_6_23 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "749257"^^xsd:decimal;
+	.
+_:Observation0_6_24 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "715861"^^xsd:decimal;
+	.
+_:Observation0_6_25 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "806806"^^xsd:decimal;
+	.
+_:Observation0_6_26 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "788330"^^xsd:decimal;
+	.
+_:Observation0_6_27 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "854073"^^xsd:decimal;
+	.
+_:Observation0_6_28 a qb:Observation;
+	eg:mode "MARC";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "834458"^^xsd:decimal;
+	.
+_:Observation0_7_1 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "361792"^^xsd:decimal;
+	.
+_:Observation0_7_2 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "334987"^^xsd:decimal;
+	.
+_:Observation0_7_3 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "336144"^^xsd:decimal;
+	.
+_:Observation0_7_4 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2016-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "359091"^^xsd:decimal;
+	.
+_:Observation0_7_5 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "310482"^^xsd:decimal;
+	.
+_:Observation0_7_6 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "359689"^^xsd:decimal;
+	.
+_:Observation0_7_7 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "334166"^^xsd:decimal;
+	.
+_:Observation0_7_8 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "325032"^^xsd:decimal;
+	.
+_:Observation0_7_9 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "305915"^^xsd:decimal;
+	.
+_:Observation0_7_10 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "288460"^^xsd:decimal;
+	.
+_:Observation0_7_11 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "290626"^^xsd:decimal;
+	.
+_:Observation0_7_12 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "306957"^^xsd:decimal;
+	.
+_:Observation0_7_13 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "347864"^^xsd:decimal;
+	.
+_:Observation0_7_14 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "310371"^^xsd:decimal;
+	.
+_:Observation0_7_15 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "344916"^^xsd:decimal;
+	.
+_:Observation0_7_16 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2017-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "341576"^^xsd:decimal;
+	.
+_:Observation0_7_17 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-07-01T00:00:00/P1M>;
+	smdx-measure:obsValue "301187"^^xsd:decimal;
+	.
+_:Observation0_7_18 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-08-01T00:00:00/P1M>;
+	smdx-measure:obsValue "359892"^^xsd:decimal;
+	.
+_:Observation0_7_19 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-09-01T00:00:00/P1M>;
+	smdx-measure:obsValue "317602"^^xsd:decimal;
+	.
+_:Observation0_7_20 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-10-01T00:00:00/P1M>;
+	smdx-measure:obsValue "340147"^^xsd:decimal;
+	.
+_:Observation0_7_21 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-11-01T00:00:00/P1M>;
+	smdx-measure:obsValue "303814"^^xsd:decimal;
+	.
+_:Observation0_7_22 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-12-01T00:00:00/P1M>;
+	smdx-measure:obsValue "270814"^^xsd:decimal;
+	.
+_:Observation0_7_23 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-01-01T00:00:00/P1M>;
+	smdx-measure:obsValue "314612"^^xsd:decimal;
+	.
+_:Observation0_7_24 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-02-01T00:00:00/P1M>;
+	smdx-measure:obsValue "297397"^^xsd:decimal;
+	.
+_:Observation0_7_25 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-03-01T00:00:00/P1M>;
+	smdx-measure:obsValue "316714"^^xsd:decimal;
+	.
+_:Observation0_7_26 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-04-01T00:00:00/P1M>;
+	smdx-measure:obsValue "330881"^^xsd:decimal;
+	.
+_:Observation0_7_27 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-05-01T00:00:00/P1M>;
+	smdx-measure:obsValue "345921"^^xsd:decimal;
+	.
+_:Observation0_7_28 a qb:Observation;
+	eg:mode "Commuter Bus";
+	eg:year <http://reference.data.gov.uk/id/gregorian-interval/2018-06-01T00:00:00/P1M>;
+	smdx-measure:obsValue "342648"^^xsd:decimal;
+	.

@@ -1,0 +1,33 @@
+version: "1"
+resources: spreadsheet
+preprocessing:
+  - type: pmap
+    path: $['Figure 4 Wildcat Creek Data'][6:400][0:13:4]
+    code: |
+      month = context.get_value([index[0], index[1], index[2] + 1])
+      date = context.get_value([index[0], index[1], index[2] + 2])
+
+      return f"{int(value)}-{int(month):02}-{int(date):02}T00:00:00"
+attributes:
+  obs: $['Figure 4 Wildcat Creek Data'][6:400][3:16:4]
+  date: $['Figure 4 Wildcat Creek Data'][6:400][0:13:4]
+  attr: $['Figure 4 Wildcat Creek Data'][4][0:13:4]
+alignments:
+  - type: dimension
+    source: obs
+    target: date
+    aligned_dims:
+      - { source: 1, target: 1 }
+      - { source: 2, target: 2 }
+  - type: dimension
+    value: obs:2 <-> attr:2
+semantic_model:
+  data_nodes:
+    obs: qb:Observation:1--eg:log_load_minus^^xsd:decimal
+    date: qb:Observation:1--eg:date^^xsd:dateTime
+    attr: qb:Observation:1--eg:unknown
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

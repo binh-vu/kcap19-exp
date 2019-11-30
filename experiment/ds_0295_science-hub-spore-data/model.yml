@@ -1,0 +1,72 @@
+version: "2"
+resources: csv
+preprocessing:
+  - type: psplit
+    path: $[:]
+    code: |
+      # re-create multiple tables by splitting on empty rows
+      return all(v == "" for v in value[:5])
+  - type: pfilter
+    path: $[:]
+    code: |
+      # filter empty table
+      return len(value) > 2
+      # return any(v != "" for v in value[0][:5])
+  - type: pfilter
+    path: $[:][:2]
+    code: |
+      return any(v != "" for v in value[:5])
+  - type: pmap
+    path: $[:][0][0]
+    code: |
+      # normalize reported time
+      from dateutil.parser import parse
+      import re
+      date = re.match("(\d+/\d+/\d+)", value)
+      return parse(date.group(1)).isoformat()
+  - type: pmap
+    path: $[:][1][0]
+    code: |
+      # get the exp info
+      import re
+      date = context.get_value([index[0], 0, 0])
+      if date.find(" ") != -1:
+        print(re.match("\d+/\d+/\d+ ?(.*)", value).group(1))
+        info = []
+        # info = [re.match("\d+/\d+/\d+ ?(.*)", value).group(1)]
+      else:
+        info = []
+      n_rows = len(context.get_value([index[0]]))
+      for i in range(1, n_rows):
+        info.append(context.get_value([index[0], i, 0]))
+      return " ".join(info).strip()
+attributes:
+  date: $[:][0][0]
+  note: $[:][1][0]
+  indicator: $[:][0][1:]
+  value:
+    path: $[:][1:][1:]
+    missing_values: [""]
+alignments:
+  - type: dimension
+    value: date:0 <-> note:0
+  - type: dimension
+    source: value
+    target: indicator
+    aligned_dims:
+      - { source: 0, target: 0 }
+      - { source: 2, target: 2 }
+  - type: dimension
+    source: value
+    target: date
+    aligned_dims:
+      - { source: 0, target: 0 }
+semantic_model:
+  eg:Record:1:
+    properties:
+      - [eg:date, date]
+      - [eg:note, note]
+      - [eg:value, value, true]
+      - [eg:indicator, indicator]
+  prefixes:
+    eg: https://example.org/

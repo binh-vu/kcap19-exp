@@ -1,0 +1,36 @@
+version: "1"
+resources:
+  csv_tbl:
+    type: csv
+  json_metadata:
+    type: json
+attributes:
+  csa2010:
+    resource_id: csv_tbl
+    path: $[1:][0]
+  values:
+    resource_id: csv_tbl
+    path: $[1:][1:]
+  col_name:
+    resource_id: json_metadata
+    path: $.meta.view.columns[9:].name
+  col_desc:
+    resource_id: json_metadata
+    path: $.meta.view.columns[9:].description
+alignments:
+  - type: dimension
+    value: col_name:3 <-> col_desc:3
+  - type: dimension
+    value: csa2010:0 <-> values:0
+  - type: dimension
+    value: values:1 <-> col_name:3
+semantic_model:
+  data_nodes:
+    csa2010: eg:Record:1--eg:location
+    values: eg:Record:1--eg:value^^xsd:decimal
+    col_name: eg:Indicator:1--drepr:uri
+    col_desc: eg:Indicator:1--rdfs:label
+  relations:
+    - eg:Record:1--eg:indicator--eg:Indicator:1
+  prefixes:
+    eg: http://example.org/

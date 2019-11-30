@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix eg: <http://example.org/> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Record0_5 a eg:Record;
+	eg:year 2004;
+	eg:total_enroll 7.331138;
+	eg:outpatient_visit 54;
+	eg:inpatient_admission 589.8;
+	.
+_:Record0_6 a eg:Record;
+	eg:year 2005;
+	eg:total_enroll 7.655563;
+	eg:outpatient_visit 57.5;
+	eg:inpatient_admission 585.8;
+	.
+_:Record0_7 a eg:Record;
+	eg:year 2006;
+	eg:total_enroll 7.872439;
+	eg:outpatient_visit 59.1;
+	eg:inpatient_admission 568.9;
+	.
+_:Record0_8 a eg:Record;
+	eg:year 2007;
+	eg:total_enroll 7.833446;
+	eg:outpatient_visit 62.3;
+	eg:inpatient_admission 589;
+	.
+_:Record0_9 a eg:Record;
+	eg:year 2008;
+	eg:total_enroll 7.834764;
+	eg:outpatient_visit 67.7;
+	eg:inpatient_admission 641.4;
+	.
+_:Record0_10 a eg:Record;
+	eg:year 2009;
+	eg:total_enroll 8.061251;
+	eg:outpatient_visit 74.9;
+	eg:inpatient_admission 662;
+	.
+_:Record0_11 a eg:Record;
+	eg:year 2010;
+	eg:total_enroll 8.3;
+	eg:outpatient_visit 80.2;
+	eg:inpatient_admission 682.3;
+	.
+_:Record0_12 a eg:Record;
+	eg:year 2011;
+	eg:total_enroll 8.574;
+	eg:outpatient_visit 79.8;
+	eg:inpatient_admission 692.1;
+	.
+_:Record0_13 a eg:Record;
+	eg:year 2012;
+	eg:total_enroll 8.763;
+	eg:outpatient_visit 83.6;
+	eg:inpatient_admission 703.5;
+	.
+_:Record0_14 a eg:Record;
+	eg:year 2013;
+	eg:total_enroll 8.9;
+	eg:outpatient_visit 86.4;
+	eg:inpatient_admission 694.7;
+	.
+_:Record0_15 a eg:Record;
+	eg:year 2014;
+	eg:total_enroll 9.1;
+	eg:outpatient_visit 92.4;
+	eg:inpatient_admission 707.4;
+	.
+_:Record0_16 a eg:Record;
+	eg:year "";
+	eg:total_enroll "";
+	eg:outpatient_visit "";
+	eg:inpatient_admission "";
+	.
+_:Record0_17 a eg:Record;
+	eg:year "1 Includes non-enrolled Veteran patients. ";
+	eg:total_enroll "";
+	eg:outpatient_visit "";
+	eg:inpatient_admission "";
+	.

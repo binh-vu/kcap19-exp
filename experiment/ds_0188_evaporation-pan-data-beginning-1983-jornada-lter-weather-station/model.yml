@@ -1,0 +1,59 @@
+version: '1'
+resources: csv
+attributes:
+  date_start: $[23:].1
+  date_read: $[23:].2
+  time: $[23:].3
+  curT: $[23:].4
+  minT: $[23:].5
+  maxT: $[23:].6
+  i_water: $[23:].7
+  f_water: $[23:].8
+  rain: $[23:].9
+  init: $[23:].10
+  evap: $[23:].11
+  qflag: $[23:].12
+alignments:
+  - type: dimension
+    value: date_start:0 <-> date_start:0
+  - type: dimension
+    value: date_read:0 <-> date_start:0
+  - type: dimension
+    value: time:0 <-> date_start:0
+  - type: dimension
+    value: curT:0 <-> date_start:0
+  - type: dimension
+    value: minT:0 <-> date_start:0
+  - type: dimension
+    value: maxT:0 <-> date_start:0
+  - type: dimension
+    value: i_water:0 <-> date_start:0
+  - type: dimension
+    value: f_water:0 <-> date_start:0
+  - type: dimension
+    value: rain:0 <-> date_start:0
+  - type: dimension
+    value: init:0 <-> date_start:0
+  - type: dimension
+    value: evap:0 <-> date_start:0
+  - type: dimension
+    value: qflag:0 <-> date_start:0
+semantic_model:
+  data_nodes:
+    date_start: qb:Observation:1--eg:date_start
+    date_read: qb:Observation:1--eg:date_read
+    time: qb:Observation:1--eg:time
+    curT: qb:Observation:1--eg:curT
+    minT: qb:Observation:1--eg:minT
+    maxT: qb:Observation:1--eg:maxT
+    i_water: qb:Observation:1--eg:i_water
+    f_water: qb:Observation:1--eg:f_water
+    rain: qb:Observation:1--eg:rain
+    init: qb:Observation:1--eg:init
+    evap: qb:Observation:1--eg:evap
+    qflag: qb:Observation:1--eg:qflag
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

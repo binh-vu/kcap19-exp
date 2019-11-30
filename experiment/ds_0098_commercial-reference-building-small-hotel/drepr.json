@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "refbldgsmallhotelnew2004v1.35.0si.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

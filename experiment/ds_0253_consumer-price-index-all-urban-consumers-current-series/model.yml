@@ -1,0 +1,47 @@
+version: "1"
+resources: spreadsheet
+preprocessing:
+  - type: pmap
+    path: $['US'][4][3:29]
+    code: |
+      from datetime import datetime
+      dt = datetime.strptime(value.replace("\\r\\n", " ").replace(".", ""), "%b %Y")
+      return dt.strftime("%Y-%m-%dT%H:%M:%S")
+  - type: pfilter
+    path: $['US'][8:]
+    code: |
+      return value[0] != ""
+  - type: pmap
+    path: $['US'][8:][1]
+    code: |
+      indent = int(context.get_left_value(index))
+      if indent == 1:
+        return value
+      cats = [value]
+      scan_idx = [index[0], index[1], 0]
+      while indent > 1:
+        scan_idx[1] = scan_idx[1] - 1
+        pindent = int(context.get_value(scan_idx))
+        if pindent < indent:
+          indent = pindent
+          cats.append(context.get_value([index[0], scan_idx[1], 1]))
+      return " / ".join(reversed(cats))
+attributes:
+  date: $['US'][4][3:29]
+  value: $['US'][8:][3:29]
+  expenditure_cat: $['US'][8:][1]
+alignments:
+  - type: dimension
+    value: date:2 <-> value:2
+  - type: dimension
+    value: expenditure_cat:1 <-> value:1
+semantic_model:
+  data_nodes:
+    date: qb:Observation:1--eg:date
+    value: qb:Observation:1--rdf:value
+    expenditure_cat: qb:Observation:1--eg:category
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

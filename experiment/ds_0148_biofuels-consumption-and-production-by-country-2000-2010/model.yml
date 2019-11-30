@@ -1,0 +1,49 @@
+version: "1"
+resources:
+  consumption:
+    type: csv
+  production:
+    type: csv
+preprocessing:
+  - type: pmap
+    resource_id: consumption
+    path: $.0[1:]
+    code: |
+      return f"http://reference.data.gov.uk/id/gregorian-interval/{value}-01-01T00:00:00/P1Y"
+attributes:
+  year:
+    resource_id: consumption
+    path: $.0[1:]
+  country:
+    resource_id: consumption
+    path: $[1:].0
+  consumption:
+    resource_id: consumption
+    path: $[1:][1:]
+    missing_values: ["NA", "--"]
+  production:
+    resource_id: production
+    path: $[1:][1:]
+    missing_values: ["NA", "--"]
+alignments:
+  - type: dimension
+    value: year:1 <-> consumption:1
+  - type: dimension
+    value: country:0 <-> consumption:0
+  - type: dimension
+    source: consumption
+    target: production
+    aligned_dims:
+      - { source: 0, target: 0 }
+      - { source: 1, target: 1 }
+semantic_model:
+  data_nodes:
+    consumption: qb:Observation:1--sdmx-measure:consumption^^xsd:decimal
+    production: qb:Observation:1--sdmx-measure:production^^xsd:decimal
+    year: qb:Observation:1--eg:year^^xsd:anyURI
+    country: qb:Observation:1--eg:country
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "Aggregate_R-R-V_Paper_MetaData.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

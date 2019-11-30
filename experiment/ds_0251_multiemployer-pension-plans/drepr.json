@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "multiemployerlist.xls"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

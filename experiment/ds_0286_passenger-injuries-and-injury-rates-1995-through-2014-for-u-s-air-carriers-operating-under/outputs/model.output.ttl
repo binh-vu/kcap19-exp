@@ -1,0 +1,244 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix eg: <http://example.org/> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Record0_4 a eg:Record;
+	eg:year "1983";
+	eg:passenger_fatalities "8";
+	eg:passenger_serious_injuries "8";
+	eg:total_passenger_enplanements "325";
+	eg:million_passenger_enplanements_per_passenger_fatality "40.6";
+	.
+_:Record0_5 a eg:Record;
+	eg:year "1984";
+	eg:passenger_fatalities "1";
+	eg:passenger_serious_injuries "6";
+	eg:total_passenger_enplanements "352";
+	eg:million_passenger_enplanements_per_passenger_fatality "352.0";
+	.
+_:Record0_6 a eg:Record;
+	eg:year "1985";
+	eg:passenger_fatalities "486";
+	eg:passenger_serious_injuries "20";
+	eg:total_passenger_enplanements "390";
+	eg:million_passenger_enplanements_per_passenger_fatality "0.8";
+	.
+_:Record0_7 a eg:Record;
+	eg:year "1986";
+	eg:passenger_fatalities "4";
+	eg:passenger_serious_injuries "14";
+	eg:total_passenger_enplanements "427";
+	eg:million_passenger_enplanements_per_passenger_fatality "106.8";
+	.
+_:Record0_8 a eg:Record;
+	eg:year "1987";
+	eg:passenger_fatalities "213";
+	eg:passenger_serious_injuries "39";
+	eg:total_passenger_enplanements "458";
+	eg:million_passenger_enplanements_per_passenger_fatality "2.2";
+	.
+_:Record0_9 a eg:Record;
+	eg:year "1988";
+	eg:passenger_fatalities "255";
+	eg:passenger_serious_injuries "44";
+	eg:total_passenger_enplanements "466";
+	eg:million_passenger_enplanements_per_passenger_fatality "1.8";
+	.
+_:Record0_10 a eg:Record;
+	eg:year "1989";
+	eg:passenger_fatalities "259";
+	eg:passenger_serious_injuries "55";
+	eg:total_passenger_enplanements "468";
+	eg:million_passenger_enplanements_per_passenger_fatality "1.8";
+	.
+_:Record0_11 a eg:Record;
+	eg:year "1990";
+	eg:passenger_fatalities "8";
+	eg:passenger_serious_injuries "23";
+	eg:total_passenger_enplanements "483";
+	eg:million_passenger_enplanements_per_passenger_fatality "60.4";
+	.
+_:Record0_12 a eg:Record;
+	eg:year "1991";
+	eg:passenger_fatalities "40";
+	eg:passenger_serious_injuries "19";
+	eg:total_passenger_enplanements "468";
+	eg:million_passenger_enplanements_per_passenger_fatality "11.7";
+	.
+_:Record0_13 a eg:Record;
+	eg:year "1992";
+	eg:passenger_fatalities "25";
+	eg:passenger_serious_injuries "14";
+	eg:total_passenger_enplanements "494";
+	eg:million_passenger_enplanements_per_passenger_fatality "19.8";
+	.
+_:Record0_14 a eg:Record;
+	eg:year "1993";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "7";
+	eg:total_passenger_enplanements "505";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_15 a eg:Record;
+	eg:year "1994";
+	eg:passenger_fatalities "228";
+	eg:passenger_serious_injuries "15";
+	eg:total_passenger_enplanements "545";
+	eg:million_passenger_enplanements_per_passenger_fatality "2.4";
+	.
+_:Record0_16 a eg:Record;
+	eg:year "1995";
+	eg:passenger_fatalities "152";
+	eg:passenger_serious_injuries "15";
+	eg:total_passenger_enplanements "561";
+	eg:million_passenger_enplanements_per_passenger_fatality "3.7";
+	.
+_:Record0_17 a eg:Record;
+	eg:year "1996";
+	eg:passenger_fatalities "319";
+	eg:passenger_serious_injuries "19";
+	eg:total_passenger_enplanements "592";
+	eg:million_passenger_enplanements_per_passenger_fatality "1.9";
+	.
+_:Record0_18 a eg:Record;
+	eg:year "1997";
+	eg:passenger_fatalities "2";
+	eg:passenger_serious_injuries "21";
+	eg:total_passenger_enplanements "648";
+	eg:million_passenger_enplanements_per_passenger_fatality "324.0";
+	.
+_:Record0_19 a eg:Record;
+	eg:year "1998";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "12";
+	eg:total_passenger_enplanements "650";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_20 a eg:Record;
+	eg:year "1999";
+	eg:passenger_fatalities "10";
+	eg:passenger_serious_injuries "46";
+	eg:total_passenger_enplanements "676";
+	eg:million_passenger_enplanements_per_passenger_fatality "67.6";
+	.
+_:Record0_21 a eg:Record;
+	eg:year "2000";
+	eg:passenger_fatalities "83";
+	eg:passenger_serious_injuries "13";
+	eg:total_passenger_enplanements "701";
+	eg:million_passenger_enplanements_per_passenger_fatality "8.4";
+	.
+_:Record0_22 a eg:Record;
+	eg:year "2001";
+	eg:passenger_fatalities "483";
+	eg:passenger_serious_injuries "7";
+	eg:total_passenger_enplanements "629";
+	eg:million_passenger_enplanements_per_passenger_fatality "1.3";
+	.
+_:Record0_23 a eg:Record;
+	eg:year "2002";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "11";
+	eg:total_passenger_enplanements "619";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_24 a eg:Record;
+	eg:year "2003";
+	eg:passenger_fatalities "19";
+	eg:passenger_serious_injuries "10";
+	eg:total_passenger_enplanements "654";
+	eg:million_passenger_enplanements_per_passenger_fatality "34.4";
+	.
+_:Record0_25 a eg:Record;
+	eg:year "2004";
+	eg:passenger_fatalities "11";
+	eg:passenger_serious_injuries "3";
+	eg:total_passenger_enplanements "711";
+	eg:million_passenger_enplanements_per_passenger_fatality "64.6";
+	.
+_:Record0_26 a eg:Record;
+	eg:year "2005";
+	eg:passenger_fatalities "18";
+	eg:passenger_serious_injuries "2";
+	eg:total_passenger_enplanements "743";
+	eg:million_passenger_enplanements_per_passenger_fatality "41.3";
+	.
+_:Record0_27 a eg:Record;
+	eg:year "2006";
+	eg:passenger_fatalities "47";
+	eg:passenger_serious_injuries "4";
+	eg:total_passenger_enplanements "747";
+	eg:million_passenger_enplanements_per_passenger_fatality "15.9";
+	.
+_:Record0_28 a eg:Record;
+	eg:year "2007";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "3";
+	eg:total_passenger_enplanements "770";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_29 a eg:Record;
+	eg:year "2008";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "10";
+	eg:total_passenger_enplanements "744";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_30 a eg:Record;
+	eg:year "2009";
+	eg:passenger_fatalities "45";
+	eg:passenger_serious_injuries "11";
+	eg:total_passenger_enplanements "706";
+	eg:million_passenger_enplanements_per_passenger_fatality "15.7";
+	.
+_:Record0_31 a eg:Record;
+	eg:year "2010";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "5";
+	eg:total_passenger_enplanements "723";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_32 a eg:Record;
+	eg:year "2011";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "4";
+	eg:total_passenger_enplanements "734";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_33 a eg:Record;
+	eg:year "2012";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "3";
+	eg:total_passenger_enplanements "740";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_34 a eg:Record;
+	eg:year "2013";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "1";
+	eg:total_passenger_enplanements "746";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_35 a eg:Record;
+	eg:year "2014";
+	eg:passenger_fatalities "0";
+	eg:passenger_serious_injuries "0";
+	eg:total_passenger_enplanements "764";
+	eg:million_passenger_enplanements_per_passenger_fatality "No Fatalities";
+	.
+_:Record0_36 a eg:Record;
+	eg:year "";
+	eg:passenger_fatalities "";
+	eg:passenger_serious_injuries "";
+	eg:total_passenger_enplanements "";
+	eg:million_passenger_enplanements_per_passenger_fatality "";
+	.

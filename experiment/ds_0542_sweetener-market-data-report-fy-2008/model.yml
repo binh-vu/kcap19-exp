@@ -1,0 +1,78 @@
+version: "2"
+resources: spreadsheet
+preprocessing:
+  - type: psplit
+    path: $[0][2:-1]
+    code: |
+      # re-create multiple tables by splitting on two empty rows
+      return value[0].startswith("TABLE")
+  - type: pfilter
+    path: $[0][2:-1][1:]
+    code: |
+      # remove empty rows
+      return value[0] != ""
+  - type: psplit
+    path: $[0][7][1:-1]
+    code: |
+      # split sugar production tables to sub-tables
+      # which we can do by adding new alignment function
+      return value[0].startswith("FY")
+  - type: pfilter
+    path: $[0][7][1:-1][1:]
+    code: |
+      return value[0].lower().find("total") == -1
+  - type: pmap
+    path: $[0][7][1:-1][1:].A
+    code: |
+      # extract type and location
+      if value.find("beets") != -1:
+        return ["beets", value.split(" ")[1]]
+
+      if value.startswith("   "):
+        return ["cane", value.lstrip()]
+      return ["cane", ""]
+attributes:
+  # we map only one table 5, but the rest can be mapped in the similar fashion
+  # this dataset is a bit tricky due to the data does not comply with a single rule
+  # therefore, we have to write some transformations to extract and normalize the data
+  # first, which you have to do the same or even more when you have to write code to map this
+  # dataset.
+  tbl_name: $[0][2:-1][0][0]
+  month: $[0][2][1][B:M]
+
+  tbl5_year: $[0][7][1:-1][0].0
+  tbl5_item: $[0][7][1:-1][1:].0.0
+  tbl5_loc: $[0][7][1:-1][1:].0.1
+  tbl5_value:
+    path: $[0][7][1:-1][1:][B:M]
+    missing_values: [""]
+alignments:
+  - type: dimension
+    value: tbl5_value:4 <-> month:3
+  - type: dimension
+    source: tbl5_value
+    target: tbl5_item
+    aligned_dims:
+      - { source: 2, target: 2 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: tbl5_value
+    target: tbl5_loc
+    aligned_dims:
+      - { source: 2, target: 2 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: tbl5_value
+    target: tbl5_year
+    aligned_dims:
+      - { source: 2, target: 2 }
+semantic_model:
+  eg:SugarProduction:1:
+    properties:
+      - [eg:month, month]
+      - [eg:year, tbl5_year]
+      - [eg:product, tbl5_item]
+      - [eg:location, tbl5_loc]
+      - [eg:value, tbl5_value, true]
+  prefixes:
+    eg: https://example.org/

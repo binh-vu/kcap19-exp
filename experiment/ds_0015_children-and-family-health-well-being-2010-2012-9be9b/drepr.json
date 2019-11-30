@@ -1,0 +1,25 @@
+[
+  {
+    "drepr": "dataset_csv.model.yml",
+    "resources": {
+      "csv_tbl": "rows.csv",
+      "json_metadata": "rows.json"
+    },
+    "output": "outputs/dataset_csv.output.ttl"
+  },
+  {
+    "drepr": "dataset_json.model.yml",
+    "resources": {
+      "default": "rows.json"
+    },
+    "output": "outputs/dataset_json.output.ttl"
+  },
+  {
+    "drepr": "dataset_xml.model.yml",
+    "resources": {
+      "xml_data": "rows.xml",
+      "json_metadata": "rows.json"
+    },
+    "output": "outputs/dataset_xml.output.ttl"
+  }
+]

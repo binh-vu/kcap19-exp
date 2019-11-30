@@ -1,0 +1,3311 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eg: <http://example.org> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Record0_1_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "8.3";
+	.
+_:Record0_1_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "14.2";
+	.
+_:Record0_1_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5";
+	.
+_:Record0_1_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "19.9";
+	.
+_:Record0_1_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "7.6";
+	.
+_:Record0_1_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5.2";
+	.
+_:Record0_1_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "11.7";
+	.
+_:Record0_1_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "4.7";
+	.
+_:Record0_1_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "9.3";
+	.
+_:Record0_1_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5.9";
+	.
+_:Record0_1_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "13.7";
+	.
+_:Record0_1_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5.3";
+	.
+_:Record0_1_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "12.9";
+	.
+_:Record0_1_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5.6";
+	.
+_:Record0_1_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "4.5";
+	.
+_:Record0_1_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "12.7";
+	.
+_:Record0_1_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "5.1";
+	.
+_:Record0_1_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "8.1";
+	.
+_:Record0_1_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "6.1";
+	.
+_:Record0_1_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "23";
+	.
+_:Record0_1_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "7.7";
+	.
+_:Record0_1_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "8.3";
+	.
+_:Record0_1_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "10.5";
+	.
+_:Record0_1_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "13.2";
+	.
+_:Record0_1_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2007";
+	rdf:value "9.2";
+	.
+_:Record0_2_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.2";
+	.
+_:Record0_2_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.1";
+	.
+_:Record0_2_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.7";
+	.
+_:Record0_2_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.6";
+	.
+_:Record0_2_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.9";
+	.
+_:Record0_2_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.1";
+	.
+_:Record0_2_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.3";
+	.
+_:Record0_2_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.9";
+	.
+_:Record0_2_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.7";
+	.
+_:Record0_2_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.3";
+	.
+_:Record0_2_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.7";
+	.
+_:Record0_2_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1";
+	.
+_:Record0_2_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.5";
+	.
+_:Record0_2_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1";
+	.
+_:Record0_2_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.8";
+	.
+_:Record0_2_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.5";
+	.
+_:Record0_2_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.7";
+	.
+_:Record0_2_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "0.9";
+	.
+_:Record0_2_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.4";
+	.
+_:Record0_2_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "4.7";
+	.
+_:Record0_2_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.5";
+	.
+_:Record0_2_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.8";
+	.
+_:Record0_2_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.6";
+	.
+_:Record0_2_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "2.1";
+	.
+_:Record0_2_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2007";
+	rdf:value "1.9";
+	.
+_:Record0_3_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "8.2";
+	.
+_:Record0_3_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "15.3";
+	.
+_:Record0_3_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5";
+	.
+_:Record0_3_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "19.2";
+	.
+_:Record0_3_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "7.9";
+	.
+_:Record0_3_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5.6";
+	.
+_:Record0_3_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "10.8";
+	.
+_:Record0_3_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5.6";
+	.
+_:Record0_3_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "7.2";
+	.
+_:Record0_3_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "6.2";
+	.
+_:Record0_3_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "14.3";
+	.
+_:Record0_3_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5.4";
+	.
+_:Record0_3_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "15";
+	.
+_:Record0_3_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5.7";
+	.
+_:Record0_3_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "4.3";
+	.
+_:Record0_3_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "12";
+	.
+_:Record0_3_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "5.8";
+	.
+_:Record0_3_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "6.7";
+	.
+_:Record0_3_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "6.3";
+	.
+_:Record0_3_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "23.1";
+	.
+_:Record0_3_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "7.4";
+	.
+_:Record0_3_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "8.3";
+	.
+_:Record0_3_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "9.4";
+	.
+_:Record0_3_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "12.8";
+	.
+_:Record0_3_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2008";
+	rdf:value "10.5";
+	.
+_:Record0_4_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.3";
+	.
+_:Record0_4_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2.8";
+	.
+_:Record0_4_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.8";
+	.
+_:Record0_4_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.6";
+	.
+_:Record0_4_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.9";
+	.
+_:Record0_4_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1";
+	.
+_:Record0_4_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2";
+	.
+_:Record0_4_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.9";
+	.
+_:Record0_4_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.3";
+	.
+_:Record0_4_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1";
+	.
+_:Record0_4_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2.7";
+	.
+_:Record0_4_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.9";
+	.
+_:Record0_4_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2.6";
+	.
+_:Record0_4_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.9";
+	.
+_:Record0_4_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.8";
+	.
+_:Record0_4_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2.5";
+	.
+_:Record0_4_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.6";
+	.
+_:Record0_4_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "0.7";
+	.
+_:Record0_4_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.2";
+	.
+_:Record0_4_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "4.6";
+	.
+_:Record0_4_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.4";
+	.
+_:Record0_4_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.6";
+	.
+_:Record0_4_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.4";
+	.
+_:Record0_4_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "1.9";
+	.
+_:Record0_4_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2008";
+	rdf:value "2";
+	.
+_:Record0_5_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "9.2";
+	.
+_:Record0_5_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "16.6";
+	.
+_:Record0_5_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "6.8";
+	.
+_:Record0_5_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "20.9";
+	.
+_:Record0_5_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "8.3";
+	.
+_:Record0_5_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "5.4";
+	.
+_:Record0_5_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "13.2";
+	.
+_:Record0_5_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "5.9";
+	.
+_:Record0_5_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "10";
+	.
+_:Record0_5_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "6.4";
+	.
+_:Record0_5_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "15.4";
+	.
+_:Record0_5_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "5.7";
+	.
+_:Record0_5_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "12.6";
+	.
+_:Record0_5_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "6.2";
+	.
+_:Record0_5_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "4.5";
+	.
+_:Record0_5_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "14.4";
+	.
+_:Record0_5_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "6.7";
+	.
+_:Record0_5_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "7.8";
+	.
+_:Record0_5_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "7.3";
+	.
+_:Record0_5_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "24";
+	.
+_:Record0_5_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "8.5";
+	.
+_:Record0_5_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "8.8";
+	.
+_:Record0_5_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "12.4";
+	.
+_:Record0_5_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "13.2";
+	.
+_:Record0_5_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2009";
+	rdf:value "12";
+	.
+_:Record0_6_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "0.3";
+	.
+_:Record0_6_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "3.3";
+	.
+_:Record0_6_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1";
+	.
+_:Record0_6_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.7";
+	.
+_:Record0_6_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1";
+	.
+_:Record0_6_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.4";
+	.
+_:Record0_6_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "2.9";
+	.
+_:Record0_6_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.1";
+	.
+_:Record0_6_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.8";
+	.
+_:Record0_6_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.6";
+	.
+_:Record0_6_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "3.5";
+	.
+_:Record0_6_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1";
+	.
+_:Record0_6_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "3";
+	.
+_:Record0_6_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.2";
+	.
+_:Record0_6_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1";
+	.
+_:Record0_6_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "3";
+	.
+_:Record0_6_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "0.8";
+	.
+_:Record0_6_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.1";
+	.
+_:Record0_6_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.7";
+	.
+_:Record0_6_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "5.9";
+	.
+_:Record0_6_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.7";
+	.
+_:Record0_6_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "2.2";
+	.
+_:Record0_6_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "1.9";
+	.
+_:Record0_6_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "2.5";
+	.
+_:Record0_6_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2009";
+	rdf:value "2.4";
+	.
+_:Record0_7_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "9.9";
+	.
+_:Record0_7_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "17.1";
+	.
+_:Record0_7_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "6.6";
+	.
+_:Record0_7_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "24.7";
+	.
+_:Record0_7_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "8.2";
+	.
+_:Record0_7_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "6.2";
+	.
+_:Record0_7_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "13";
+	.
+_:Record0_7_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "5.4";
+	.
+_:Record0_7_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "10.5";
+	.
+_:Record0_7_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "6.2";
+	.
+_:Record0_7_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "16.2";
+	.
+_:Record0_7_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "5.6";
+	.
+_:Record0_7_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "15.1";
+	.
+_:Record0_7_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "6.9";
+	.
+_:Record0_7_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "5.2";
+	.
+_:Record0_7_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "14.2";
+	.
+_:Record0_7_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "7.5";
+	.
+_:Record0_7_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "9.4";
+	.
+_:Record0_7_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "7.3";
+	.
+_:Record0_7_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "19.3";
+	.
+_:Record0_7_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "7.5";
+	.
+_:Record0_7_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "9.7";
+	.
+_:Record0_7_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "11.4";
+	.
+_:Record0_7_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "16.6";
+	.
+_:Record0_7_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2010";
+	rdf:value "10.6";
+	.
+_:Record0_8_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "0.3";
+	.
+_:Record0_8_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "3";
+	.
+_:Record0_8_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.1";
+	.
+_:Record0_8_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.8";
+	.
+_:Record0_8_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.2";
+	.
+_:Record0_8_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.4";
+	.
+_:Record0_8_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2.8";
+	.
+_:Record0_8_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.1";
+	.
+_:Record0_8_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2";
+	.
+_:Record0_8_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.4";
+	.
+_:Record0_8_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "3.2";
+	.
+_:Record0_8_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.2";
+	.
+_:Record0_8_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "3.1";
+	.
+_:Record0_8_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.4";
+	.
+_:Record0_8_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.1";
+	.
+_:Record0_8_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "3.1";
+	.
+_:Record0_8_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "0.8";
+	.
+_:Record0_8_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.2";
+	.
+_:Record0_8_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.7";
+	.
+_:Record0_8_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "5.5";
+	.
+_:Record0_8_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "1.9";
+	.
+_:Record0_8_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2.2";
+	.
+_:Record0_8_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2.1";
+	.
+_:Record0_8_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2.8";
+	.
+_:Record0_8_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2010";
+	rdf:value "2.7";
+	.
+_:Record0_9_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "10.2";
+	.
+_:Record0_9_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "19.1";
+	.
+_:Record0_9_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "6.5";
+	.
+_:Record0_9_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "24.5";
+	.
+_:Record0_9_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "9.6";
+	.
+_:Record0_9_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "6.1";
+	.
+_:Record0_9_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "13.1";
+	.
+_:Record0_9_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "5.5";
+	.
+_:Record0_9_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "9.7";
+	.
+_:Record0_9_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "7.7";
+	.
+_:Record0_9_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "17.5";
+	.
+_:Record0_9_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "6.6";
+	.
+_:Record0_9_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "12";
+	.
+_:Record0_9_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "8.3";
+	.
+_:Record0_9_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "6";
+	.
+_:Record0_9_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "13.9";
+	.
+_:Record0_9_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "6.7";
+	.
+_:Record0_9_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "9.4";
+	.
+_:Record0_9_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "8.7";
+	.
+_:Record0_9_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "26.2";
+	.
+_:Record0_9_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "8.6";
+	.
+_:Record0_9_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "10.8";
+	.
+_:Record0_9_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "11.8";
+	.
+_:Record0_9_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "17.7";
+	.
+_:Record0_9_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2011";
+	rdf:value "13";
+	.
+_:Record0_10_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "0.3";
+	.
+_:Record0_10_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "3.4";
+	.
+_:Record0_10_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.2";
+	.
+_:Record0_10_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.7";
+	.
+_:Record0_10_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.2";
+	.
+_:Record0_10_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.5";
+	.
+_:Record0_10_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.7";
+	.
+_:Record0_10_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.2";
+	.
+_:Record0_10_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.2";
+	.
+_:Record0_10_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.5";
+	.
+_:Record0_10_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "3.3";
+	.
+_:Record0_10_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.2";
+	.
+_:Record0_10_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.9";
+	.
+_:Record0_10_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.2";
+	.
+_:Record0_10_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.1";
+	.
+_:Record0_10_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "3.4";
+	.
+_:Record0_10_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "0.8";
+	.
+_:Record0_10_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1";
+	.
+_:Record0_10_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.7";
+	.
+_:Record0_10_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "6";
+	.
+_:Record0_10_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.8";
+	.
+_:Record0_10_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.2";
+	.
+_:Record0_10_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "1.7";
+	.
+_:Record0_10_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.6";
+	.
+_:Record0_10_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2011";
+	rdf:value "2.6";
+	.
+_:Record0_11_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "10.4";
+	.
+_:Record0_11_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "18.1";
+	.
+_:Record0_11_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "6.3";
+	.
+_:Record0_11_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "24.5";
+	.
+_:Record0_11_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "9.7";
+	.
+_:Record0_11_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "7";
+	.
+_:Record0_11_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "15.7";
+	.
+_:Record0_11_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "6.3";
+	.
+_:Record0_11_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "11.9";
+	.
+_:Record0_11_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "8.6";
+	.
+_:Record0_11_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "18.4";
+	.
+_:Record0_11_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "6.8";
+	.
+_:Record0_11_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "14.5";
+	.
+_:Record0_11_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "7.9";
+	.
+_:Record0_11_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "5.3";
+	.
+_:Record0_11_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "14";
+	.
+_:Record0_11_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "6.6";
+	.
+_:Record0_11_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "10.3";
+	.
+_:Record0_11_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "8.2";
+	.
+_:Record0_11_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "29.6";
+	.
+_:Record0_11_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "8.4";
+	.
+_:Record0_11_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "9.7";
+	.
+_:Record0_11_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "13.7";
+	.
+_:Record0_11_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "16.7";
+	.
+_:Record0_11_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2012";
+	rdf:value "11.1";
+	.
+_:Record0_12_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "0.3";
+	.
+_:Record0_12_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.8";
+	.
+_:Record0_12_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1";
+	.
+_:Record0_12_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.7";
+	.
+_:Record0_12_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1";
+	.
+_:Record0_12_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.3";
+	.
+_:Record0_12_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.7";
+	.
+_:Record0_12_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.1";
+	.
+_:Record0_12_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.9";
+	.
+_:Record0_12_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.3";
+	.
+_:Record0_12_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.9";
+	.
+_:Record0_12_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.1";
+	.
+_:Record0_12_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.6";
+	.
+_:Record0_12_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1";
+	.
+_:Record0_12_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1";
+	.
+_:Record0_12_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "3.1";
+	.
+_:Record0_12_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "0.8";
+	.
+_:Record0_12_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "0.9";
+	.
+_:Record0_12_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.6";
+	.
+_:Record0_12_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "6.2";
+	.
+_:Record0_12_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.7";
+	.
+_:Record0_12_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.1";
+	.
+_:Record0_12_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "1.9";
+	.
+_:Record0_12_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.6";
+	.
+_:Record0_12_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2012";
+	rdf:value "2.4";
+	.
+_:Record0_13_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "10.2";
+	.
+_:Record0_13_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "18.6";
+	.
+_:Record0_13_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "7.3";
+	.
+_:Record0_13_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "22.7";
+	.
+_:Record0_13_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "9.5";
+	.
+_:Record0_13_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "6.9";
+	.
+_:Record0_13_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "16.7";
+	.
+_:Record0_13_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "6.8";
+	.
+_:Record0_13_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "9.8";
+	.
+_:Record0_13_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "8";
+	.
+_:Record0_13_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "17.7";
+	.
+_:Record0_13_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "6.9";
+	.
+_:Record0_13_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "15.9";
+	.
+_:Record0_13_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "7.4";
+	.
+_:Record0_13_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "5.3";
+	.
+_:Record0_13_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "14.9";
+	.
+_:Record0_13_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "7";
+	.
+_:Record0_13_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "9.9";
+	.
+_:Record0_13_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "8.4";
+	.
+_:Record0_13_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "28.5";
+	.
+_:Record0_13_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "8.2";
+	.
+_:Record0_13_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "10.9";
+	.
+_:Record0_13_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "12";
+	.
+_:Record0_13_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "16.5";
+	.
+_:Record0_13_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2013";
+	rdf:value "13.1";
+	.
+_:Record0_14_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "0.3";
+	.
+_:Record0_14_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "3.3";
+	.
+_:Record0_14_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.1";
+	.
+_:Record0_14_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.6";
+	.
+_:Record0_14_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1";
+	.
+_:Record0_14_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.4";
+	.
+_:Record0_14_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.8";
+	.
+_:Record0_14_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.2";
+	.
+_:Record0_14_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2";
+	.
+_:Record0_14_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.5";
+	.
+_:Record0_14_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "3.3";
+	.
+_:Record0_14_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.2";
+	.
+_:Record0_14_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.9";
+	.
+_:Record0_14_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.2";
+	.
+_:Record0_14_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.1";
+	.
+_:Record0_14_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "3.2";
+	.
+_:Record0_14_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "0.9";
+	.
+_:Record0_14_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1";
+	.
+_:Record0_14_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.8";
+	.
+_:Record0_14_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "5.7";
+	.
+_:Record0_14_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "1.8";
+	.
+_:Record0_14_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.2";
+	.
+_:Record0_14_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.1";
+	.
+_:Record0_14_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.8";
+	.
+_:Record0_14_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2013";
+	rdf:value "2.5";
+	.
+_:Record0_15_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "10.4";
+	.
+_:Record0_15_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "18.5";
+	.
+_:Record0_15_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "6.7";
+	.
+_:Record0_15_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "23.3";
+	.
+_:Record0_15_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "9.8";
+	.
+_:Record0_15_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "7.2";
+	.
+_:Record0_15_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "16";
+	.
+_:Record0_15_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "5.9";
+	.
+_:Record0_15_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "10.6";
+	.
+_:Record0_15_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "7.2";
+	.
+_:Record0_15_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "17.5";
+	.
+_:Record0_15_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "6.5";
+	.
+_:Record0_15_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "12.4";
+	.
+_:Record0_15_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "8";
+	.
+_:Record0_15_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "6.1";
+	.
+_:Record0_15_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "13.8";
+	.
+_:Record0_15_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "7.2";
+	.
+_:Record0_15_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "10.3";
+	.
+_:Record0_15_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "7.5";
+	.
+_:Record0_15_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "25.5";
+	.
+_:Record0_15_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "8.6";
+	.
+_:Record0_15_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "11.7";
+	.
+_:Record0_15_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "13.8";
+	.
+_:Record0_15_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "16.9";
+	.
+_:Record0_15_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2014";
+	rdf:value "11.9";
+	.
+_:Record0_16_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "0.3";
+	.
+_:Record0_16_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2.7";
+	.
+_:Record0_16_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.1";
+	.
+_:Record0_16_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.8";
+	.
+_:Record0_16_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.1";
+	.
+_:Record0_16_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.4";
+	.
+_:Record0_16_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "3";
+	.
+_:Record0_16_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.2";
+	.
+_:Record0_16_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2";
+	.
+_:Record0_16_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.5";
+	.
+_:Record0_16_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "3.6";
+	.
+_:Record0_16_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.2";
+	.
+_:Record0_16_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "3";
+	.
+_:Record0_16_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.2";
+	.
+_:Record0_16_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.1";
+	.
+_:Record0_16_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "3.3";
+	.
+_:Record0_16_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "0.9";
+	.
+_:Record0_16_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.2";
+	.
+_:Record0_16_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.9";
+	.
+_:Record0_16_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "6";
+	.
+_:Record0_16_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "1.8";
+	.
+_:Record0_16_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2.2";
+	.
+_:Record0_16_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2";
+	.
+_:Record0_16_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2.7";
+	.
+_:Record0_16_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2014";
+	rdf:value "2.4";
+	.
+_:Record0_17_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "9.9";
+	.
+_:Record0_17_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "20";
+	.
+_:Record0_17_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "6";
+	.
+_:Record0_17_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "22.7";
+	.
+_:Record0_17_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "9.1";
+	.
+_:Record0_17_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "5.9";
+	.
+_:Record0_17_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "14.4";
+	.
+_:Record0_17_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "6.2";
+	.
+_:Record0_17_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "10";
+	.
+_:Record0_17_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "7.1";
+	.
+_:Record0_17_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "18.1";
+	.
+_:Record0_17_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "7.4";
+	.
+_:Record0_17_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "13.6";
+	.
+_:Record0_17_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "7.8";
+	.
+_:Record0_17_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "5.2";
+	.
+_:Record0_17_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "14.8";
+	.
+_:Record0_17_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "7.5";
+	.
+_:Record0_17_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "9.5";
+	.
+_:Record0_17_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "7.2";
+	.
+_:Record0_17_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "25.8";
+	.
+_:Record0_17_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "8.7";
+	.
+_:Record0_17_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "10.4";
+	.
+_:Record0_17_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "12";
+	.
+_:Record0_17_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "14.7";
+	.
+_:Record0_17_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2015";
+	rdf:value "11.3";
+	.
+_:Record0_18_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "0.3";
+	.
+_:Record0_18_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "3.1";
+	.
+_:Record0_18_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1";
+	.
+_:Record0_18_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2";
+	.
+_:Record0_18_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1";
+	.
+_:Record0_18_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.4";
+	.
+_:Record0_18_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "3.1";
+	.
+_:Record0_18_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.1";
+	.
+_:Record0_18_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2";
+	.
+_:Record0_18_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.5";
+	.
+_:Record0_18_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "3.4";
+	.
+_:Record0_18_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.1";
+	.
+_:Record0_18_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2.9";
+	.
+_:Record0_18_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.2";
+	.
+_:Record0_18_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.1";
+	.
+_:Record0_18_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "3.1";
+	.
+_:Record0_18_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "0.9";
+	.
+_:Record0_18_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.1";
+	.
+_:Record0_18_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.6";
+	.
+_:Record0_18_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "5.7";
+	.
+_:Record0_18_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "1.8";
+	.
+_:Record0_18_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2.1";
+	.
+_:Record0_18_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2";
+	.
+_:Record0_18_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2.7";
+	.
+_:Record0_18_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2015";
+	rdf:value "2.4";
+	.
+_:Record0_19_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "9.7";
+	.
+_:Record0_19_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "17.2";
+	.
+_:Record0_19_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "7";
+	.
+_:Record0_19_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "21.8";
+	.
+_:Record0_19_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "9";
+	.
+_:Record0_19_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "5.8";
+	.
+_:Record0_19_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "15.3";
+	.
+_:Record0_19_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "5.5";
+	.
+_:Record0_19_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "10";
+	.
+_:Record0_19_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "7.4";
+	.
+_:Record0_19_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "17.4";
+	.
+_:Record0_19_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "6.9";
+	.
+_:Record0_19_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "12.8";
+	.
+_:Record0_19_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "7.2";
+	.
+_:Record0_19_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "5.2";
+	.
+_:Record0_19_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "14";
+	.
+_:Record0_19_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "6.9";
+	.
+_:Record0_19_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "9.2";
+	.
+_:Record0_19_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "7.3";
+	.
+_:Record0_19_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "24.3";
+	.
+_:Record0_19_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "9.1";
+	.
+_:Record0_19_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "10.4";
+	.
+_:Record0_19_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "13.2";
+	.
+_:Record0_19_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "18";
+	.
+_:Record0_19_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2016";
+	rdf:value "11.4";
+	.
+_:Record0_20_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "0.2";
+	.
+_:Record0_20_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "3.2";
+	.
+_:Record0_20_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1";
+	.
+_:Record0_20_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.7";
+	.
+_:Record0_20_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "0.9";
+	.
+_:Record0_20_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.2";
+	.
+_:Record0_20_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "2.8";
+	.
+_:Record0_20_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.2";
+	.
+_:Record0_20_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.8";
+	.
+_:Record0_20_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.5";
+	.
+_:Record0_20_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "3.3";
+	.
+_:Record0_20_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "0.9";
+	.
+_:Record0_20_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "2.6";
+	.
+_:Record0_20_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.1";
+	.
+_:Record0_20_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1";
+	.
+_:Record0_20_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "3";
+	.
+_:Record0_20_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "0.8";
+	.
+_:Record0_20_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "0.9";
+	.
+_:Record0_20_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.5";
+	.
+_:Record0_20_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "5.6";
+	.
+_:Record0_20_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.6";
+	.
+_:Record0_20_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "2.2";
+	.
+_:Record0_20_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "1.9";
+	.
+_:Record0_20_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "2.3";
+	.
+_:Record0_20_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2016";
+	rdf:value "2.3";
+	.
+_:Record0_21_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "9.4";
+	.
+_:Record0_21_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "17";
+	.
+_:Record0_21_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "6.1";
+	.
+_:Record0_21_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "22.1";
+	.
+_:Record0_21_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "8.3";
+	.
+_:Record0_21_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "6";
+	.
+_:Record0_21_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "13.8";
+	.
+_:Record0_21_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "5";
+	.
+_:Record0_21_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "9.7";
+	.
+_:Record0_21_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "7.5";
+	.
+_:Record0_21_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "15.7";
+	.
+_:Record0_21_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "6.7";
+	.
+_:Record0_21_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "11.8";
+	.
+_:Record0_21_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "7.1";
+	.
+_:Record0_21_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "5.9";
+	.
+_:Record0_21_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "12.8";
+	.
+_:Record0_21_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "7";
+	.
+_:Record0_21_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "8.6";
+	.
+_:Record0_21_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "7.7";
+	.
+_:Record0_21_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "24.7";
+	.
+_:Record0_21_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "8.5";
+	.
+_:Record0_21_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "9.1";
+	.
+_:Record0_21_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "13.3";
+	.
+_:Record0_21_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "15";
+	.
+_:Record0_21_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Poverty Rate";
+	eg:year "2017";
+	rdf:value "9.9";
+	.
+_:Record0_22_3 a eg:Record;
+	eg:county "MARYLAND";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "0.3";
+	.
+_:Record0_22_4 a eg:Record;
+	eg:county "Allegany County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "3.1";
+	.
+_:Record0_22_5 a eg:Record;
+	eg:county "Anne Arundel County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1";
+	.
+_:Record0_22_6 a eg:Record;
+	eg:county "Baltimore City";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.9";
+	.
+_:Record0_22_7 a eg:Record;
+	eg:county "Baltimore County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1";
+	.
+_:Record0_22_8 a eg:Record;
+	eg:county "Calvert County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.3";
+	.
+_:Record0_22_9 a eg:Record;
+	eg:county "Caroline County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.7";
+	.
+_:Record0_22_10 a eg:Record;
+	eg:county "Carroll County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1";
+	.
+_:Record0_22_11 a eg:Record;
+	eg:county "Cecil County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.9";
+	.
+_:Record0_22_12 a eg:Record;
+	eg:county "Charles County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.4";
+	.
+_:Record0_22_13 a eg:Record;
+	eg:county "Dorchester County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "3.5";
+	.
+_:Record0_22_14 a eg:Record;
+	eg:county "Frederick County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1";
+	.
+_:Record0_22_15 a eg:Record;
+	eg:county "Garrett County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.7";
+	.
+_:Record0_22_16 a eg:Record;
+	eg:county "Harford County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.2";
+	.
+_:Record0_22_17 a eg:Record;
+	eg:county "Howard County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "0.9";
+	.
+_:Record0_22_18 a eg:Record;
+	eg:county "Kent County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.8";
+	.
+_:Record0_22_19 a eg:Record;
+	eg:county "Montgomery County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "0.8";
+	.
+_:Record0_22_20 a eg:Record;
+	eg:county "Prince George's County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1";
+	.
+_:Record0_22_21 a eg:Record;
+	eg:county "Queen Anne's County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.6";
+	.
+_:Record0_22_22 a eg:Record;
+	eg:county "Somerset County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "5.6";
+	.
+_:Record0_22_23 a eg:Record;
+	eg:county "St. Mary's County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "1.7";
+	.
+_:Record0_22_24 a eg:Record;
+	eg:county "Talbot County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.3";
+	.
+_:Record0_22_25 a eg:Record;
+	eg:county "Washington County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2";
+	.
+_:Record0_22_26 a eg:Record;
+	eg:county "Wicomico County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.9";
+	.
+_:Record0_22_27 a eg:Record;
+	eg:county "Worcester County";
+	eg:estimator "Margin of Error";
+	eg:year "2017";
+	rdf:value "2.1";
+	.

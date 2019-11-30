@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "On-Street Parking Citation Collections.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

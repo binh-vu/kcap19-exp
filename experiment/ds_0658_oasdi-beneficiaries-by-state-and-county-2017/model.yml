@@ -1,0 +1,67 @@
+version: "2"
+resources: spreadsheet
+preprocessing:
+  - type: pmap
+    path: $[3:][2][3:13]
+    code: |
+      # fill-missing values of indicator
+      if value == "":
+        return context.get_left_value(index)
+      return value
+  - type: pmap
+    path: $[3:][3][3:13]
+    code: |
+      # normalize the indicators
+      return context.get_value([index[0], 2, index[-1]]) + " / " + value
+  - type: pmap
+    path: $[55:107][5:][E:N]
+    code: |
+      # convert to thousand of dolars
+      return value * 1000
+attributes:
+  # we only care about the details data since the aggregated data
+  # can be generated automatically
+  tbl4_state: $[3:55].0.A
+  tbl4_county: $[3:55][5:].A
+  tbl4_indicator: $[3:55][3][E:N]
+  tbl4_value:
+    path: $[3:55][5:][E:N]
+    missing_values: [""]
+  tbl5_value:
+    path: $[55:107][5:][E:N]
+    missing_values: [""]
+alignments:
+  - type: dimension
+    source: tbl4_value
+    target: tbl4_state
+    aligned_dims:
+      - { source: 0, target: 0 }
+  - type: dimension
+    source: tbl4_value
+    target: tbl4_county
+    aligned_dims:
+      - { source: 0, target: 0 }
+      - { source: 1, target: 1 }
+  - type: dimension
+    source: tbl4_value
+    target: tbl4_indicator
+    aligned_dims:
+      - { source: 0, target: 0 }
+      - { source: 2, target: 2 }
+  - type: dimension
+    source: tbl4_value
+    target: tbl5_value
+    aligned_dims:
+      - { source: 0, target: 0 }
+      - { source: 1, target: 1 }
+      - { source: 2, target: 2 }
+semantic_model:
+  eg:Record:1:
+    properties:
+      - [eg:state, tbl4_state]
+      - [eg:county, tbl4_county]
+      - [eg:indicator, tbl4_indicator]
+      - [eg:n_beneficiaries, tbl4_value, true]
+      - [eg:amount_beneficiaries, tbl5_value, true]
+  prefixes:
+    eg: https://example.org/

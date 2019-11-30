@@ -1,0 +1,21 @@
+version: "1"
+resources: netcdf4
+attributes:
+  lat: $.lat[:]
+  long: $.lon[:]
+  band1: $.Band1[:][:]
+alignments:
+  - type: dimension
+    value: lat:1 <-> band1:1
+  - type: dimension
+    value: long:1 <-> band1:2
+semantic_model:
+  data_nodes:
+    lat: qb:Observation:1--eg:latitude
+    long: qb:Observation:1--eg:longitude
+    band1: qb:Observation:1--smdx-measure:obsValue
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    smdx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

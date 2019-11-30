@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "NORMAL_MLY_sample_csv.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

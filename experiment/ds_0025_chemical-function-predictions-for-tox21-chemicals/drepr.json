@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "ALLPCPPREDS_080516.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

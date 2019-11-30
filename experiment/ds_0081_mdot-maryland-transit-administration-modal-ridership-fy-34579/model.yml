@@ -1,0 +1,29 @@
+version: "1"
+resources: csv
+preprocessing:
+  - type: pmap
+    path: $.0[1:]
+    code: |
+      from datetime import datetime
+      dt = datetime.strptime(value.strip(), "%B FY%y")
+      dt = dt.strftime("%Y-%m-%dT%H:%M:%S")
+      return f"http://reference.data.gov.uk/id/gregorian-interval/{dt}/P1M"
+attributes:
+  mode: $[1:-1].0
+  year: $.0[1:]
+  obs: $[1:-1][1:]
+alignments:
+  - type: dimension
+    value: mode:0 <-> obs:0
+  - type: dimension
+    value: year:1 <-> obs:1
+semantic_model:
+  data_nodes:
+    mode: qb:Observation:1--eg:mode
+    year: qb:Observation:1--eg:year^^xsd:anyURI
+    obs: qb:Observation:1--smdx-measure:obsValue^^xsd:decimal
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    smdx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

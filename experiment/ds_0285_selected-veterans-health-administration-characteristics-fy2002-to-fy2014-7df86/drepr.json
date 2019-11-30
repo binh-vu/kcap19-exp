@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "VHAStats_2014.xlsx"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

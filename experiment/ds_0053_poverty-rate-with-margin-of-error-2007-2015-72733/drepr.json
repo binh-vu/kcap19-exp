@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "rows.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

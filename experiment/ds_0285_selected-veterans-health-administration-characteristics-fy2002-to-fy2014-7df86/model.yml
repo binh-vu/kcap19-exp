@@ -1,0 +1,25 @@
+version: '1'
+resources: spreadsheet
+attributes:
+  year: $.Sheet1[5:18][0]
+  total_enroll: $.Sheet1[5:18][1]
+  outpatient_visit: $.Sheet1[5:18][2]
+  inpatient_admission: $.Sheet1[5:18][3]
+alignments:
+  - type: dimension
+    value: year:1 <-> total_enroll:1
+  - type: dimension
+    value: year:1 <-> outpatient_visit:1
+  - type: dimension
+    value: year:1 <-> inpatient_admission:1
+semantic_model:
+  data_nodes:
+    year: eg:Record:1--eg:year
+    total_enroll: eg:Record:1--eg:total_enroll
+    outpatient_visit: eg:Record:1--eg:outpatient_visit
+    inpatient_admission: eg:Record:1--eg:inpatient_admission
+  relations: []
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

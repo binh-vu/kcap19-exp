@@ -1,0 +1,28 @@
+version: '1'
+resources: csv
+attributes:
+  year: $[4:37][0]
+  passenger_fatalities: $[4:37][1]
+  passenger_serious_injuries: $[4:37][3]
+  total_passenger_enplanements: $[4:37][5]
+  million_passenger_enplanements_per_passenger_fatality: $[4:37][6]
+alignments:
+  - type: dimension
+    value: passenger_fatalities:0 <-> year:0
+  - type: dimension
+    value: passenger_serious_injuries:0 <-> year:0
+  - type: dimension
+    value: total_passenger_enplanements:0 <-> year:0
+  - type: dimension
+    value: million_passenger_enplanements_per_passenger_fatality:0 <-> year:0
+semantic_model:
+  data_nodes:
+    year: eg:Record:1--eg:year
+    passenger_fatalities: eg:Record:1--eg:passenger_fatalities
+    passenger_serious_injuries: eg:Record:1--eg:passenger_serious_injuries
+    total_passenger_enplanements: eg:Record:1--eg:total_passenger_enplanements
+    million_passenger_enplanements_per_passenger_fatality: eg:Record:1--eg:million_passenger_enplanements_per_passenger_fatality
+  prefixes:
+    qb: http://purl.org/linked-data/cube#
+    sdmx-measure: http://purl.org/linked-data/sdmx/2009/measure#
+    eg: http://example.org/

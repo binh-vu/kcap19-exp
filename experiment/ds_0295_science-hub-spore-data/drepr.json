@@ -1,0 +1,9 @@
+[
+  {
+    "drepr": "model.yml",
+    "resources": {
+      "default": "spore paper science hub data.csv"
+    },
+    "output": "outputs/model.output.ttl"
+  }
+]

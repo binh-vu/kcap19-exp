@@ -1,0 +1,18 @@
+version: '1'
+resources: csv
+attributes:
+  compounds: $[1:][0]
+  attr1: $[0][1:]
+  values: $[1:][1:]
+alignments:
+  - type: dimension
+    value: compounds:0 <-> values:0
+  - type: dimension
+    value: attr1:1 <-> values:1
+semantic_model:
+  data_nodes:
+    values: eg:Record:1--rdf:value
+    compounds: eg:Record:1--eg:compound
+    attr1: eg:Record:1--eg:unknown_dim
+  prefixes:
+    eg: http://example.org

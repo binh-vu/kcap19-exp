@@ -1,0 +1,51 @@
+# there are many information in there, we are intestered in extracting
+# energy. The other information can be extracted in similar fashion
+version: "2"
+resources: spreadsheet
+preprocessing:
+  - type: psplit
+    path: $.LocationSummary[2:]
+    code: |
+      # re-split multiple tables
+      return value[0] != ""
+  - type: psplit
+    path: $.LocationSummary[2:][1:]
+    code: |
+      return value[2] == ""
+attributes:
+  location: $.LocationSummary[1][2:]
+  category: $.LocationSummary[7][0].A
+  sub_category: $.LocationSummary[7][1:][0].B
+  indicator: $.LocationSummary[7][1:][1:-1].B
+  value: $.LocationSummary[7][1:][1:-1][2:]
+alignments:
+  - type: dimension
+    source: category
+    target: sub_category
+    aligned_dims: []
+  - type: dimension
+    source: value
+    target: sub_category
+    aligned_dims:
+      - { source: 2, target: 2 }
+  - type: dimension
+    source: value
+    target: indicator
+    aligned_dims:
+      - { source: 2, target: 2 }
+      - { source: 3, target: 3 }
+  - type: dimension
+    source: value
+    target: location
+    aligned_dims:
+      - { source: 4, target: 2 }
+semantic_model:
+  eg:Record:1:
+    properties:
+      - [eg:location, location]
+      - [eg:category, category]
+      - [eg:sub_category, sub_category]
+      - [eg:indicator, indicator]
+      - [eg:value, value]
+  prefixes:
+    eg: https://example.org

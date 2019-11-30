@@ -1,0 +1,145 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix eg: <http://example.org/> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Observation0_1 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201001";
+	eg:tmin_norm "-43";
+	eg:tmax_norm "145";
+	eg:prcp_norm "55";
+	.
+_:Observation0_2 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201002";
+	eg:tmin_norm "4";
+	eg:tmax_norm "199";
+	eg:prcp_norm "44";
+	.
+_:Observation0_3 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201003";
+	eg:tmin_norm "140";
+	eg:tmax_norm "318";
+	eg:prcp_norm "72";
+	.
+_:Observation0_4 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201004";
+	eg:tmin_norm "294";
+	eg:tmax_norm "517";
+	eg:prcp_norm "98";
+	.
+_:Observation0_5 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201005";
+	eg:tmin_norm "417";
+	eg:tmax_norm "656";
+	eg:prcp_norm "249";
+	.
+_:Observation0_6 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201006";
+	eg:tmin_norm "521";
+	eg:tmax_norm "743";
+	eg:prcp_norm "376";
+	.
+_:Observation0_7 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201007";
+	eg:tmin_norm "564";
+	eg:tmax_norm "793";
+	eg:prcp_norm "322";
+	.
+_:Observation0_8 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201008";
+	eg:tmin_norm "542";
+	eg:tmax_norm "789";
+	eg:prcp_norm "275";
+	.
+_:Observation0_9 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201009";
+	eg:tmin_norm "438";
+	eg:tmax_norm "685";
+	eg:prcp_norm "208";
+	.
+_:Observation0_10 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201010";
+	eg:tmin_norm "310";
+	eg:tmax_norm "531";
+	eg:prcp_norm "169";
+	.
+_:Observation0_11 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201011";
+	eg:tmin_norm "165";
+	eg:tmax_norm "337";
+	eg:prcp_norm "81";
+	.
+_:Observation0_12 a qb:Observation;
+	eg:station "GHCND:USC00327027";
+	eg:station_name "PETERSBURG 2 N ND US";
+	eg:elevation "466.3";
+	eg:latitude "48.0355";
+	eg:longitude "-98.01";
+	eg:date "201012";
+	eg:tmin_norm "15";
+	eg:tmax_norm "187";
+	eg:prcp_norm "73";
+	.

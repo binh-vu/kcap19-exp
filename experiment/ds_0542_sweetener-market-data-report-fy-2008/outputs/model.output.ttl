@@ -1,0 +1,935 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eg: <https://example.org/> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:SugarProduction0_1_1_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 685615;
+	.
+_:SugarProduction0_1_1_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 708688;
+	.
+_:SugarProduction0_1_1_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 710639;
+	.
+_:SugarProduction0_1_1_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 661586;
+	.
+_:SugarProduction0_1_1_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 485126;
+	.
+_:SugarProduction0_1_1_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 423775;
+	.
+_:SugarProduction0_1_1_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 337473;
+	.
+_:SugarProduction0_1_1_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 216526;
+	.
+_:SugarProduction0_1_1_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 82987;
+	.
+_:SugarProduction0_1_1_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 82214;
+	.
+_:SugarProduction0_1_1_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 72614;
+	.
+_:SugarProduction0_1_2_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 37160;
+	.
+_:SugarProduction0_1_2_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_2_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_1_4_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 72703;
+	.
+_:SugarProduction0_1_4_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 291794;
+	.
+_:SugarProduction0_1_4_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 323663;
+	.
+_:SugarProduction0_1_4_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 321414;
+	.
+_:SugarProduction0_1_4_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 253438;
+	.
+_:SugarProduction0_1_4_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 242560;
+	.
+_:SugarProduction0_1_4_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 92302;
+	.
+_:SugarProduction0_1_4_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 47237;
+	.
+_:SugarProduction0_1_4_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_1_4_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_1_4_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_1_5_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 17871;
+	.
+_:SugarProduction0_1_5_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 14126;
+	.
+_:SugarProduction0_1_5_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 3415;
+	.
+_:SugarProduction0_1_5_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 0;
+	.
+_:SugarProduction0_1_5_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 0;
+	.
+_:SugarProduction0_1_5_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 14244;
+	.
+_:SugarProduction0_1_5_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 16523;
+	.
+_:SugarProduction0_1_5_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 21267;
+	.
+_:SugarProduction0_1_5_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 30903;
+	.
+_:SugarProduction0_1_5_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 19214;
+	.
+_:SugarProduction0_1_5_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 25960;
+	.
+_:SugarProduction0_1_6_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 440419;
+	.
+_:SugarProduction0_1_6_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 499242;
+	.
+_:SugarProduction0_1_6_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 473151;
+	.
+_:SugarProduction0_1_6_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 33400;
+	.
+_:SugarProduction0_1_6_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_6_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_1_7_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 19047;
+	.
+_:SugarProduction0_1_7_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 20535;
+	.
+_:SugarProduction0_1_7_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 31717;
+	.
+_:SugarProduction0_1_7_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 24105;
+	.
+_:SugarProduction0_1_7_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 29752;
+	.
+_:SugarProduction0_1_7_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 32433;
+	.
+_:SugarProduction0_1_7_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_1_7_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_1_7_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_1_7_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_1_7_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2008";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_2_1_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 743995;
+	.
+_:SugarProduction0_2_1_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 718220;
+	.
+_:SugarProduction0_2_1_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 736657;
+	.
+_:SugarProduction0_2_1_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 663462;
+	.
+_:SugarProduction0_2_1_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 491840;
+	.
+_:SugarProduction0_2_1_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 433841;
+	.
+_:SugarProduction0_2_1_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 300485;
+	.
+_:SugarProduction0_2_1_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 280319;
+	.
+_:SugarProduction0_2_1_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 81390;
+	.
+_:SugarProduction0_2_1_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 72829;
+	.
+_:SugarProduction0_2_1_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "domestic";
+	eg:value 106419;
+	.
+_:SugarProduction0_2_2_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 36705;
+	.
+_:SugarProduction0_2_2_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_2_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "beets";
+	eg:location "imported";
+	eg:value 0;
+	.
+_:SugarProduction0_2_4_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 116974;
+	.
+_:SugarProduction0_2_4_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 308690;
+	.
+_:SugarProduction0_2_4_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 327080;
+	.
+_:SugarProduction0_2_4_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 348000;
+	.
+_:SugarProduction0_2_4_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 321659;
+	.
+_:SugarProduction0_2_4_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 253908;
+	.
+_:SugarProduction0_2_4_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 42214;
+	.
+_:SugarProduction0_2_4_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_2_4_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_2_4_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_2_4_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Florida";
+	eg:value 0;
+	.
+_:SugarProduction0_2_5_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 17742;
+	.
+_:SugarProduction0_2_5_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 12041;
+	.
+_:SugarProduction0_2_5_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 21168;
+	.
+_:SugarProduction0_2_5_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 0;
+	.
+_:SugarProduction0_2_5_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 0;
+	.
+_:SugarProduction0_2_5_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 9186;
+	.
+_:SugarProduction0_2_5_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 34618;
+	.
+_:SugarProduction0_2_5_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 25074;
+	.
+_:SugarProduction0_2_5_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 26049;
+	.
+_:SugarProduction0_2_5_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 31088;
+	.
+_:SugarProduction0_2_5_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Hawaii";
+	eg:value 23781;
+	.
+_:SugarProduction0_2_6_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 337636;
+	.
+_:SugarProduction0_2_6_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 469458;
+	.
+_:SugarProduction0_2_6_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 426505;
+	.
+_:SugarProduction0_2_6_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 45611;
+	.
+_:SugarProduction0_2_6_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_6_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Louisiana";
+	eg:value 0;
+	.
+_:SugarProduction0_2_7_1 a eg:SugarProduction;
+	eg:month "OCT";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 5612;
+	.
+_:SugarProduction0_2_7_2 a eg:SugarProduction;
+	eg:month "NOV";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 24403;
+	.
+_:SugarProduction0_2_7_3 a eg:SugarProduction;
+	eg:month "DEC";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 24707;
+	.
+_:SugarProduction0_2_7_4 a eg:SugarProduction;
+	eg:month "JAN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 18071;
+	.
+_:SugarProduction0_2_7_5 a eg:SugarProduction;
+	eg:month "FEB";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 24934;
+	.
+_:SugarProduction0_2_7_6 a eg:SugarProduction;
+	eg:month "MAR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 32257;
+	.
+_:SugarProduction0_2_7_7 a eg:SugarProduction;
+	eg:month "APR";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 26157;
+	.
+_:SugarProduction0_2_7_8 a eg:SugarProduction;
+	eg:month "MAY";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 21250;
+	.
+_:SugarProduction0_2_7_9 a eg:SugarProduction;
+	eg:month "JUN";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_2_7_10 a eg:SugarProduction;
+	eg:month "JUL";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.
+_:SugarProduction0_2_7_11 a eg:SugarProduction;
+	eg:month "AUG";
+	eg:year "FY 2007";
+	eg:product "cane";
+	eg:location "Texas";
+	eg:value 0;
+	.

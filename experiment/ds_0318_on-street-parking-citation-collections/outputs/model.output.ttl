@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eg: <https://example.org> .
+@prefix drepr: <https://purl.org/drepr/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+_:Record0_26 a eg:Record;
+	eg:month "2012-02-01";
+	eg:n_citations 7184;
+	eg:n_paid_citations 5335;
+	.
+_:Record0_27 a eg:Record;
+	eg:month "2012-03-01";
+	eg:n_citations 6987;
+	eg:n_paid_citations 4914;
+	.
+_:Record0_28 a eg:Record;
+	eg:month "2012-04-01";
+	eg:n_citations 8555;
+	eg:n_paid_citations 4992;
+	.
+_:Record0_29 a eg:Record;
+	eg:month "2012-05-01";
+	eg:n_citations 7643;
+	eg:n_paid_citations 5818;
+	.
+_:Record0_30 a eg:Record;
+	eg:month "2012-06-01";
+	eg:n_citations 7224;
+	eg:n_paid_citations 5770;
+	.
+_:Record0_31 a eg:Record;
+	eg:month "2012-07-01";
+	eg:n_citations 7896;
+	eg:n_paid_citations 6369;
+	.
+_:Record0_32 a eg:Record;
+	eg:month "2012-08-01";
+	eg:n_citations 9253;
+	eg:n_paid_citations 7544;
+	.
+_:Record0_33 a eg:Record;
+	eg:month "2012-09-01";
+	eg:n_citations 8085;
+	eg:n_paid_citations 6627;
+	.
+_:Record0_34 a eg:Record;
+	eg:month "2012-10-01";
+	eg:n_citations 8664;
+	eg:n_paid_citations 6971;
+	.
+_:Record0_35 a eg:Record;
+	eg:month "2012-11-01";
+	eg:n_citations 7146;
+	eg:n_paid_citations 5809;
+	.
+_:Record0_36 a eg:Record;
+	eg:month "2012-12-01";
+	eg:n_citations 6174;
+	eg:n_paid_citations 5127;
+	.
+_:Record0_37 a eg:Record;
+	eg:month "2013-01-01";
+	eg:n_citations 8509;
+	eg:n_paid_citations 6965;
+	.
+_:Record0_38 a eg:Record;
+	eg:month "2013-02-01";
+	eg:n_citations 9342;
+	eg:n_paid_citations 7806;
+	.
+_:Record0_39 a eg:Record;
+	eg:month "2013-03-01";
+	eg:n_citations 9983;
+	eg:n_paid_citations 8616;
+	.
+_:Record0_40 a eg:Record;
+	eg:month "2013-04-01";
+	eg:n_citations 10179;
+	eg:n_paid_citations 8189;
+	.
+_:Record0_41 a eg:Record;
+	eg:month "2013-05-01";
+	eg:n_citations 10145;
+	eg:n_paid_citations 8130;
+	.
+_:Record0_42 a eg:Record;
+	eg:month "2013-06-01";
+	eg:n_citations 11806;
+	eg:n_paid_citations 9070;
+	.
+_:Record0_43 a eg:Record;
+	eg:month "2013-07-01";
+	eg:n_citations 11382;
+	eg:n_paid_citations 8696;
+	.
+_:Record0_44 a eg:Record;
+	eg:month "2013-08-01";
+	eg:n_citations 12824;
+	eg:n_paid_citations 9296;
+	.
+_:Record0_45 a eg:Record;
+	eg:month "2013-09-01";
+	eg:n_citations 11222;
+	eg:n_paid_citations 5937;
+	.
+_:Record0_46 a eg:Record;
+	eg:month "2013-10-01";
+	eg:n_citations 13272;
+	eg:n_paid_citations 10461;
+	.
+_:Record0_47 a eg:Record;
+	eg:month "2013-11-01";
+	eg:n_citations 10901;
+	eg:n_paid_citations 8726;
+	.
+_:Record0_48 a eg:Record;
+	eg:month "2013-12-01";
+	eg:n_citations 9288;
+	eg:n_paid_citations 7196;
+	.
