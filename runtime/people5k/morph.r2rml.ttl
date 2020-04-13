@@ -1,0 +1,55 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix schema: <http://schema.org/> .
+
+<#PersonMap>
+    rr:logicalTable [ rr:tableName "DATA" ];
+    rr:subjectMap [
+        a rr:Subject;
+        rr:column "ID";
+        rr:class schema:Person;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate schema:name;
+        rr:objectMap [ rr:column "NAME"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:telephone;
+        rr:objectMap [ rr:column "PHONE"; ];
+    ] ;
+ 	rr:predicateObjectMap [
+        rr:predicate schema:address;
+        rr:objectMap [
+            rr:parentTriplesMap <#Address>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "ID";
+            ];
+        ];
+    ];
+.
+
+<#Address>
+	rr:logicalTable [ rr:tableName "DATA" ];
+    rr:subjectMap [
+        a rr:Subject;
+        rr:column "ID";
+        rr:class schema:PostalAddress;
+        rr:termType rr:BlankNode;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate schema:streetAddress;
+        rr:objectMap [ rr:column "STREET"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:addressLocality;
+        rr:objectMap [ rr:column "CITY"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:addressRegion;
+        rr:objectMap [ rr:column "STATE"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:postalCode;
+        rr:objectMap [ rr:column "ZIPCODE"; ];
+    ] ;
+.

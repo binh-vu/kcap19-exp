@@ -1,0 +1,60 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix eg: <https://example.com/ns#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix schema: <http://schema.org/> .
+
+eg:PersonMap
+    rml:logicalSource [
+        rml:source "DATA.csv" ;
+        rml:referenceFormulation ql:CSV ;
+    ];
+    rr:subjectMap [
+        a rr:Subject;
+        rml:reference "ID";
+        rr:class schema:Person;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate schema:name;
+        rr:objectMap [ rml:reference "NAME"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:telephone;
+        rr:objectMap [ rml:reference "PHONE"; ];
+    ] ;
+ 	rr:predicateObjectMap [
+        rr:predicate schema:address;
+        rr:objectMap [
+            rr:parentTriplesMap eg:Address;
+        ];
+    ];
+.
+
+eg:Address
+	rml:logicalSource [
+        rml:source "DATA.csv" ;
+        rml:referenceFormulation ql:CSV ;
+    ];
+    rr:subjectMap [
+        a rr:Subject;
+        rml:reference "ID";
+        rr:class schema:PostalAddress;
+        rr:termType rr:BlankNode;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate schema:streetAddress;
+        rr:objectMap [ rml:reference "STREET"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:addressLocality;
+        rr:objectMap [ rml:reference "CITY"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:addressRegion;
+        rr:objectMap [ rml:reference "STATE"; ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:postalCode;
+        rr:objectMap [ rml:reference "ZIPCODE"; ];
+    ] ;
+.
